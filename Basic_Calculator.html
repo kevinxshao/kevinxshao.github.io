@@ -70,13 +70,13 @@ interdark
   </tr>
    <tr>
      <td><font size = "7"><a onclick="zeroFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>0</center></a></font></td>
-    <td><font size = "7"><center>Pow</center></td>
-    <td><font size = "7"><center>&Sqrt;</center></td>
-    <td><font size = "7"><center>&times;</center></td>
+      <td><font size = "7"><a onclick="clearFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>CLEAR</center></a></font></td>
+      <td><font size = "7"><a onclick="rootFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>&Sqrt</center></a></font></td>
+          <td><font size = "7"><a onclick="multiplyFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>&times</center></a></font></td>
   </tr>
   <tr>
-    <td><font size = "7"><center>1</center></font></td>
-    <td><font size = "7"><center>2</center></td>
+          <td><font size = "7"><a onclick="oneFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>1</center></a></font></td>
+          <td><font size = "7"><a onclick="twoFunction()" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center>2</center></a></font></td>
     <td><font size = "7"><center>3</center></td>
     <td><font size = "7"><center>&divide;</center></td>
   </tr>
@@ -97,9 +97,67 @@ interdark
 function zeroFunction() {
   document.getElementById("tabi1").innerHTML = "0";
     tabi1.style.fontSize = "48px";
-
 }
-
+function oneFunction() {
+  document.getElementById("tabi1").innerHTML = "1";
+    tabi1.style.fontSize = "48px";
+}
+function twoFunction() {
+  document.getElementById("tabi1").innerHTML = "2";
+    tabi1.style.fontSize = "48px";
+}
+function threeFunction() {
+  document.getElementById("tabi1").innerHTML = "3";
+    tabi1.style.fontSize = "48px";
+} 
+function fourFunction() {
+  document.getElementById("tabi1").innerHTML = "4";
+    tabi1.style.fontSize = "48px";
+}  
+function fiveFunction() {
+  document.getElementById("tabi1").innerHTML = "5";
+    tabi1.style.fontSize = "48px";
+}  
+function sixFunction() {
+  document.getElementById("tabi1").innerHTML = "6";
+    tabi1.style.fontSize = "48px";
+}  
+function sevenFunction() {
+  document.getElementById("tabi1").innerHTML = "7";
+    tabi1.style.fontSize = "48px";
+}
+ function eightFunction() {
+  document.getElementById("tabi1").innerHTML = "8";
+    tabi1.style.fontSize = "48px";
+}
+function nineFunction() {
+  document.getElementById("tabi1").innerHTML = "9";
+    tabi1.style.fontSize = "48px";
+}  
+function clearFunction() {
+  document.getElementById("tabi1").innerHTML = "CLEARED";
+    tabi1.style.fontSize = "48px";
+}
+function addFunction() {
+  document.getElementById("tabi1").innerHTML = "+";
+    tabi1.style.fontSize = "48px";
+}
+function subtractFunction() {
+  document.getElementById("tabi1").innerHTML = "-";
+    tabi1.style.fontSize = "48px";
+}  
+function multiplyFunction() {
+  document.getElementById("tabi1").innerHTML = "X";
+    tabi1.style.fontSize = "48px";
+}
+function divideFunction() {
+  document.getElementById("tabi1").innerHTML = "/";
+    tabi1.style.fontSize = "48px";
+}  
+function rootFunction() {
+  document.getElementById("tabi1").innerHTML = "&#8730;";
+    tabi1.style.fontSize = "48px";
+}    
 </script>
 </body>
        
