@@ -225,18 +225,19 @@ function divideFunction() {
 function equalFunction() {
   var result = 0;
    if (adding == 1 ) {
-  result = result.toString(x + y);
+  result = x+y;
   } 
   if (subtracting == 1 ) {
-  result = result.toString(x - y);
+  result = x-y
   } 
    if (multiply == 1 ) {
-  result = result.toString(x * y);
+  result = x*y;
   } 
   if (divide == 1 ) {
-  result = result.toString(x / y);
-  } 
-   document.getElementById("tabi1").innerHTML = result;
+  result = x/y;
+  }
+  var realresult =result.toString()
+   document.getElementById("tabi1").innerHTML = realresult;
    x = -1;
    y = -1;
   adding =0;
