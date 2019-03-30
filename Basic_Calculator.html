@@ -223,17 +223,18 @@ function divideFunction() {
     tabi1.style.fontSize = "48px";
 }  
 function equalFunction() {
+  var result = 0;
    if (adding == 1 ) {
-  var result = num.toString(x + y);
+  result = result.toString(x + y);
   } 
   if (subtracting == 1 ) {
-  var result = num.toString(x - y);
+  result = result.toString(x - y);
   } 
    if (multiply == 1 ) {
-  var result = num.toString(x * y);
+  result = result.toString(x * y);
   } 
   if (divide == 1 ) {
-  var result = num.toString(x / y);
+  result = result.toString(x / y);
   } 
    document.getElementById("tabi1").innerHTML = result;
    x = -1;
