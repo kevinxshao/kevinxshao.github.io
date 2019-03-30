@@ -101,17 +101,21 @@ interdark
   var multiply =0;
   var divide =0;
   var stringforscreen = ""
+  var stringforscreen2 = ""
 function zeroFunction() {
-  stringforscreen += "0"
-  document.getElementById("tabi1").innerHTML =  stringforscreen;
   if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1) ) {
+    stringforscreen += "0"
    y = y*10;
   y = y+0;
+  document.getElementById("tabi1").innerHTML =  stringforscreen;
+    tabi1.style.fontSize = "48px";
   } else {
+   stringforscreen += "0"
    x = x*10;
    x =x+0;
-}
+   document.getElementById("tabi1").innerHTML =  stringforscreen;
     tabi1.style.fontSize = "48px";
+}
 }
 function oneFunction() {
   stringforscreen += "1"
