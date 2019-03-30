@@ -94,68 +94,154 @@ interdark
   </tr>
 </table>
 <script>
+  var x = -1;
+  var y = -1;
+  
+  var adding =0;
+  var subtracting =0;
+  var multiply =0;
+  var divide =0;
+  
 function zeroFunction() {
   document.getElementById("tabi1").innerHTML = "0";
+  if (x > -1 ) {
+  y =0;
+  } else {
+   x =0;
+}
     tabi1.style.fontSize = "48px";
 }
 function oneFunction() {
   document.getElementById("tabi1").innerHTML = "1";
+   if (x > -1 ) {
+  y =1;
+  } else {
+   x =1;
+}
     tabi1.style.fontSize = "48px";
 }
 function twoFunction() {
   document.getElementById("tabi1").innerHTML = "2";
+   if (x > -1 ) {
+  y =2;
+  } else {
+   x =2;
+}
     tabi1.style.fontSize = "48px";
 }
 function threeFunction() {
   document.getElementById("tabi1").innerHTML = "3";
+  if (x > -1 ) {
+  y =3;
+  } else {
+  x =3;
+}
     tabi1.style.fontSize = "48px";
 } 
 function fourFunction() {
   document.getElementById("tabi1").innerHTML = "4";
+  if (x > -1 ) {
+  y =4;
+  } else {
+   x =4;
+}
     tabi1.style.fontSize = "48px";
 }  
 function fiveFunction() {
   document.getElementById("tabi1").innerHTML = "5";
+   if (x > -1 ) {
+  y =5;
+  } else {
+   x =5;
+}
     tabi1.style.fontSize = "48px";
 }  
 function sixFunction() {
   document.getElementById("tabi1").innerHTML = "6";
+   if (x > -1 ) {
+    y =6;
+  } else {
+  x =6;
+}
     tabi1.style.fontSize = "48px";
 }  
 function sevenFunction() {
   document.getElementById("tabi1").innerHTML = "7";
+   if (x > -1 ) {
+  y =7;
+  } else {
+   x =7;
+}
     tabi1.style.fontSize = "48px";
 }
  function eightFunction() {
   document.getElementById("tabi1").innerHTML = "8";
+   if (x > -1 ) {
+  y =8;
+  } else {
+   x =8;
+}
     tabi1.style.fontSize = "48px";
 }
 function nineFunction() {
   document.getElementById("tabi1").innerHTML = "9";
+   if (x > -1 ) {
+  y =9;
+  } else {
+  x =9;
+}
     tabi1.style.fontSize = "48px";
 }  
 function clearFunction() {
   document.getElementById("tabi1").innerHTML = "CLEARED";
+      x = -1;
+      y = -1;
+      adding =0;
+      subtracting =0;
+      multiply =0;
+      divide =0;
     tabi1.style.fontSize = "48px";
 }
 function addFunction() {
   document.getElementById("tabi1").innerHTML = "+";
-    tabi1.style.fontSize = "48px";
+  adding =1;
+  tabi1.style.fontSize = "48px";
 }
 function subtractFunction() {
   document.getElementById("tabi1").innerHTML = "-";
+   subtracting =1;
     tabi1.style.fontSize = "48px";
 }  
 function multiplyFunction() {
   document.getElementById("tabi1").innerHTML = "X";
+    multiply =1;
     tabi1.style.fontSize = "48px";
 }
 function divideFunction() {
   document.getElementById("tabi1").innerHTML = "/";
+     divide =1;
     tabi1.style.fontSize = "48px";
 }  
 function equalFunction() {
-  document.getElementById("tabi1").innerHTML = "=";
+   if (adding == 1 ) {
+  var result = num.toString(x + y);
+  } 
+  if (subtracting == 1 ) {
+  var result = num.toString(x - y);
+  } 
+   if (multiply == 1 ) {
+  var result = num.toString(x * y);
+  } 
+  if (divide == 1 ) {
+  var result = num.toString(x / y);
+  } 
+   document.getElementById("tabi1").innerHTML = result;
+   x = -1;
+   y = -1;
+  adding =0;
+  subtracting =0;
+  multiply =0;
+  divide =0;
     tabi1.style.fontSize = "48px";
 }    
 </script>
