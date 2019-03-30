@@ -100,9 +100,12 @@ interdark
   var subtracting =0;
   var multiply =0;
   var divide =0;
-  
+  var stringforscreen = ""
+  var fullstringforscreen = ""
 function zeroFunction() {
-  document.getElementById("tabi1").innerHTML = "0";
+  str1 = "0";
+  fullstringforscreen =  stringforscreen.append(str1)
+  document.getElementById("tabi1").innerHTML =  fullstringforscreen;
   if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1) ) {
    y = y*10;
   y = y+0;
