@@ -101,7 +101,6 @@ interdark
   var multiply =0;
   var divide =0;
   var stringforscreen = ""
-  var fullstringforscreen = ""
 function zeroFunction() {
   stringforscreen += "0"
   document.getElementById("tabi1").innerHTML =  stringforscreen;
@@ -115,9 +114,8 @@ function zeroFunction() {
     tabi1.style.fontSize = "48px";
 }
 function oneFunction() {
-   str1 = "1";
-  fullstringforscreen =  stringforscreen.concat(str1);
-  document.getElementById("tabi1").innerHTML = "1";
+  stringforscreen += "1"
+  document.getElementById("tabi1").innerHTML =  stringforscreen;
    if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1)) {
    y = y*10;
   y =y+1;
@@ -224,6 +222,7 @@ function clearFunction() {
       subtracting =0;
       multiply =0;
       divide =0;
+      stringforscreen = ""
     tabi1.style.fontSize = "48px";
 }
 function addFunction() {
@@ -266,6 +265,7 @@ function equalFunction() {
   subtracting =0;
   multiply =0;
   divide =0;
+  stringforscreen = ""
     tabi1.style.fontSize = "48px";
 }    
 </script>
