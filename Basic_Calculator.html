@@ -103,9 +103,8 @@ interdark
   var stringforscreen = ""
   var fullstringforscreen = ""
 function zeroFunction() {
-  str1 = "0";
-  fullstringforscreen =  stringforscreen.concat(str1);
-  document.getElementById("tabi1").innerHTML =  fullstringforscreen;
+  stringforscreen += "0"
+  document.getElementById("tabi1").innerHTML =  stringforscreen;
   if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1) ) {
    y = y*10;
   y = y+0;
