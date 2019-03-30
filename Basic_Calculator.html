@@ -104,7 +104,7 @@ interdark
   var fullstringforscreen = ""
 function zeroFunction() {
   str1 = "0";
-  fullstringforscreen =  stringforscreen.concat(str1)
+  fullstringforscreen =  stringforscreen.concat(str1);
   document.getElementById("tabi1").innerHTML =  fullstringforscreen;
   if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1) ) {
    y = y*10;
@@ -116,6 +116,8 @@ function zeroFunction() {
     tabi1.style.fontSize = "48px";
 }
 function oneFunction() {
+   str1 = "1";
+  fullstringforscreen =  stringforscreen.concat(str1);
   document.getElementById("tabi1").innerHTML = "1";
    if ((adding ==1) || (subtracting ==1) || ( multiply ==1) || (divide ==1)) {
    y = y*10;
