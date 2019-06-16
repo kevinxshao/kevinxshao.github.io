@@ -25,7 +25,15 @@ a:hover {
     background:red;
     margin:10px;
 }
+.mirror{
+    display: inline-block; 
+    font-size: 30px;
 
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
 </style>
   
 <title>
@@ -78,7 +86,7 @@ if (ny>=360){ny=0}
  <body background="Bday.png">
    <font size = "12", color = "yellow"> <center> HAPPY BIRTHDAY MIKE!!!!</center> </font>
    <a><font size = "12", color = "blue"> <center> KOOL REDNU 4SP </center> </font></a>
-   <div onmouseover="rotateYDIV()" id="rotate3D" style="transform: rotateY(360deg);"><center id="rotate3D" > LOOK UNDER PS4</center></div>
+   <div onmouseover="rotateYDIV()" id="rotate3D" style="transform: rotateY(360deg) class = 'mirror';"><center> LOOK UNDER PS4</center></div>
 </body>
        
 </html>
