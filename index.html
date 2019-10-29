@@ -1,82 +1,54 @@
 <!doctype html>
-
 <html>
   
 <head> 
  <meta property="og:title" content="interdark"/>
  <meta property="og:description" content="My new wesbsite"/>
-  <style>
-#ulyl {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+ <link rel= "stylesheet" href="style.css">
 
-#listy1 {
-  float: left;
-}
-
-#listy1 a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-#listy1 a:hover {
-  background-color: #111;
-}
-#para1 {
-  float: left;
-  }    
- #para2 {
-  clear:left;
-  }   
-  #para3 {
-  float: left;
-  }    
-</style>
- 
-    
   
 <title>
 interdark 
 </title>
+
 <link rel="icon" href="https://interdark.com/RealInter.png">
+
 </head>
   
- <body background="Steelblue.jpg">
-   <ul id="ulyl">
-  <li id="listy1"><a href="https://interdark.com/">Home</a></li>
-  <li id ="listy1"><a href="https://interdark.com/news.html">News</a></li>
-  <li id ="listy1"><a href="https://interdark.com/contact.html">Contact</a></li>
-  <li id ="listy1"><a href="https://interdark.com/about.html">About</a></li>
+ <body>
+  <ul id="topBar">
+  <li id="topBarList"><a href="https://interdark.com/">Home</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/news.html">News</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/contact.html">Contact</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/about.html">About</a></li>
   </ul>
-  <h1><font size ="20"><center><i>InterDark</i></center></font></h1>
- 
-   <h2><center><img src="RealInter.png" alt="Interdark Logo"></center></h2>
-   
-   <p><center><font size ="6"><a onclick="requestpassword()" onmouseover="" style="cursor: pointer;" style="color:black;"><i><b>Courses</b></i></a></font></center></p>
- 
-  
-   <p id = "para1"><center><i><b><font size ="6"><a href="https://interdark.com/Games.html" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"> Games</a></font>&emsp;<font size ="6"><a href="https://interdark.com/Calculators.html" onmouseover="" style="cursor: pointer;color:black;text-decoration:none">Calculators</a></font></b></i></center></p>
- 
-   
-    <p id = "para2"><font size ="6"><a href="https://interdark.com/FormulaSheets.html" onmouseover="" style="cursor: pointer;color:black;text-decoration:none"><center><i><b>Formula Sheets</b></i></center></a></font></p>
 
+  <h1><IMG SRC="Pictures/star.gif"> InterDark <IMG SRC="Pictures/star.gif"></h1>
+    
+  <h2><IMG SRC="Pictures/fast.gif"></h2>
+
+  <h3><img src="Pictures/InterDarkLogo.png" alt="Interdark Logo"></h3>
+  
+   <p id = "para0"><a onclick="requestpassword()" onmouseover="">Courses</a></p>
+    
+   <br>
+  
+   <p id = "para1"><a href="https://interdark.com/Games.html" onmouseover=""> Games</a>&emsp;<a href="https://interdark.com/Calculators.html" onmouseover=""> Calculators</a></p>
+    
+   <br>
    
-   <p id="pass1"></p>
+    <p id = "para2"><a href="https://interdark.com/FormulaSheets.html" onmouseover="">Formula Sheets</a></p>
+
+    <p id = "paraEnd"><IMG SRC="Pictures/fast.gif"></p>
+   
    <script>
   function requestpassword() {
    var password = prompt("Please enter the password");
-    if (password == "bunnygirl") {
-      document.getElementById("pass1").innerHTML = window.location.href = 'https://interdark.com/Courses.html';
-    }
-    else{
-     window.alert("Invalid Password");
+    if (password == "MadeyYouLook") {
+        document.getElementById("pass1").innerHTML = window.location.href = 'https://interdark.com/Courses.html';
+      }
+      else{
+      window.alert("Invalid Password");
     }
   }
 </script>
