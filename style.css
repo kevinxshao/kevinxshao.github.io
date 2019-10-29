@@ -1,0 +1,108 @@
+#topBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  #topBarList {
+    float: left;
+  }
+
+  #topBarList a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #topBarList a:hover {
+    background-color: #111;
+    /*cursor: url("Pictures/LightSaberClone.gif"), pointer;	*/
+  }
+ html, body {
+    /*cursor: url("Pictures/LightSaber.gif"), default;*/
+  cursor: default;
+    /* just change the cursor.ico path to your location */
+}
+
+  h1{
+    text-shadow: 2px 2px 5px rgb(99, 122, 128);
+    text-align: center;
+    font-style: italic;
+    font-size: 350%;
+    color: #1e1e88;
+    margin: 0;
+  }
+  h2{
+    text-align: center;
+    margin: 1;
+  }
+  h3{
+    text-align: center;
+    margin: 0;
+  }
+
+  #para0{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+  
+    color: #1e1e88;
+    text-shadow: 2px 2px 5px rgb(99, 122, 128);
+  }
+
+  #para0 a:hover{
+    /*cursor: url("Pictures/LightSaberClone.gif"), pointer;	*/
+    cursor: pointer;
+  }
+  #para1 {
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+    color: #1e1e88;
+    text-shadow: 2px 2px 5px rgb(99, 122, 128);
+   
+    }    
+  #para1 a{
+    text-decoration:none;
+    
+    }
+  #para1 a:hover{
+    /*cursor: url("Pictures/LightSaberClone.gif"), pointer;*/
+    cursor: pointer;
+    }
+   #para2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+    color: #1e1e88;
+    text-shadow: 2px 2px 5px rgb(99, 122, 128);
+
+    }   
+    #para2 a{
+      text-decoration:none;
+    }
+    #para2 a:hover{
+      /*cursor: url("Pictures/LightSaberClone.gif"), pointer;*/
+      cursor: pointer;
+
+    }
+   #paraEnd {
+    text-align: center;
+    }    
+
+    body {
+      background-image: url("Pictures/background.gif");
+      /*background-repeat: no-repeat;
+      background-size: cover;*/
+    }
