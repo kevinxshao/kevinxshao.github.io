@@ -140,7 +140,28 @@
     }
    #paraEnd {
     text-align: center;
-    }    
+    }   
+    #paraHeading{
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 120%;
+      margin: 0;
+      color: #8585ee;
+      text-shadow: 2px 2px 5px rgb(99, 122, 128);
+    } 
+    #paraHeading a{
+      text-decoration:none;
+    }
+    #paraText{
+      text-align: center;
+      font-size: 110%;
+      margin: 0;
+      color: #000000;
+    }
+    #paraText a{
+      text-decoration:none;
+    }
 
     body {
       background-image: url("Pictures/background.gif");
@@ -149,4 +170,5 @@
     }
     a { 
       color: inherit; 
+      /* Gets rid of hyperlink blueness when you first see it*/
     } 
