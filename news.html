@@ -1,55 +1,53 @@
 <!doctype html>
-
 <html>
   
 <head> 
  <meta property="og:title" content="interdark"/>
  <meta property="og:description" content="My new wesbsite"/>
-  <style>
-#ulyl {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-#listy1 {
-  float: left;
-}
-#listy1 a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-#listy1 a:hover {
-  background-color: #111;
-}
-</style>
+ <link rel= "stylesheet" href="style.css">
+ <script src = "js.js"></script>
   
 <title>
 interdark 
 </title>
-<link rel="icon" href="https://interdark.com/RealInter.png">        
+
+<link rel="icon" href="https://interdark.com/RealInter.png">
+
 </head>
   
- <body background="Steelblue.jpg">
-  <ul id="ulyl">
-  <li id="listy1"><a href="https://interdark.com/">Home</a></li>
-  <li id ="listy1"><a href="https://interdark.com/news.html">News</a></li>
-  <li id ="listy1"><a href="https://interdark.com/contact.html">Contact</a></li>
-  <li id ="listy1"><a href="https://interdark.com/about.html">About</a></li>
+ <body>
+  <ul id="topBar">
+  <li id="topBarList"><a href="https://interdark.com/">Home</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/news.html">News</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/contact.html">Contact</a></li>
+  <li id ="topBarList"><a href="https://interdark.com/about.html">About</a></li>
   </ul>
-  <h1><font size ="20"><center><i>News</i></center></font></h1>
-  <h2><center><img src="RealInter.png" alt="Interdark Logo"></center></h2>
-  <u2>
-  <li><font size ="5"><b>Hey guys welcome to my new website. In this website I will have educational courses,games, other</b></font></br></li> 
-  <li><font size = "5"><b>As of 2/23/19 I have we have got the background coloring done and also the Logo for this website</b></font></br></li>
-  <li><font size = "5"><b>As of 3/25/19 I have updated the about page, contact page and added some links on the home page. The logo has also been updated on the website window tab</b></font></br></li>
-  <li><font size = "5"><b>As of 3/27/19 I have created the outline for the basic calculator and only some of the buttons work for now as it is a work in progress. This calculator will only take in two operands at a time.</b></font></br></li>
-   <li><font size ="5"><b>As of 3/29/19 The basic calculator has been completed and will  be updated </b></font></br></li> 
-</u2>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Biography &emsp;  &emsp; &nbsp;  &rArr;</a>
+    <a href="#">Birthday &emsp;  &emsp; &emsp; &rArr;</a>
+    <a href="#">Services &emsp;  &emsp; &emsp; &rArr; </a>
+    <a href="#">Clients &emsp;  &emsp; &emsp; &nbsp; &rArr;</a>
+   
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span> <IMG SRC="Pictures/star.gif">
+
+  <h1><IMG SRC="Pictures/star.gif"> News <IMG SRC="Pictures/star.gif"></h1>
+    
+  <h2><IMG SRC="Pictures/fast.gif"></h2>
+    <p id = "para1">Revamping Website and Website Code</p>
+    <br>
+    <p id = "paraHeading">Wednesday October 30, 2019</p>
+    <br>
+    <p id = "paraText">Seperating HTML, Javascript and CSS into their own respective files for more readability</p>
+
+ 
+  <br>
+  <br>
+   <br>
+    <br>
+    <p id = "paraEnd"><IMG SRC="Pictures/fast.gif"></p>
 </body>
        
 </html>
