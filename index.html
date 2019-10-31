@@ -4,8 +4,9 @@
 <head> 
  <meta property="og:title" content="interdark"/>
  <meta property="og:description" content="My new wesbsite"/>
+ <meta name="viewport" content = "width=device-width, intial-scale=1.0"/>
  <link rel= "stylesheet" href="style.css">
-
+ <script src = "js.js"></script>
   
 <title>
 interdark 
@@ -25,10 +26,11 @@ interdark
 
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About Me</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="#">Biography &emsp;  &emsp; &nbsp;  &rArr;</a>
+    <a href="#">Birthday &emsp;  &emsp; &emsp; &rArr;</a>
+    <a href="#">Services &emsp;  &emsp; &emsp; &rArr; </a>
+    <a href="#">Clients &emsp;  &emsp; &emsp; &nbsp; &rArr;</a>
+   
   </div>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span> <IMG SRC="Pictures/star.gif">
 
@@ -49,29 +51,10 @@ interdark
    <br>
    <br>
    
-    <p id = "para2"><a href="https://interdark.com/FormulaSheets.html" onmouseover="">Formula Sheets</a>&emsp;<a href="https://interdark.com/Games.html" onmouseover=""> Gallary</a>&emsp;<a href="https://interdark.com/Games.html" onmouseover=""> Education</a></p>
+    <p id = "para2"><a href="https://interdark.com/FormulaSheets.html" onmouseover="">Formula Sheets</a>&emsp;<a href="https://interdark.com/Games.html" onmouseover=""> Gallery</a>&emsp;<a href="https://interdark.com/Games.html" onmouseover=""> Education</a></p>
     <br>
     <br>
     <p id = "paraEnd"><IMG SRC="Pictures/fast.gif"></p>
-   
-   <script>
-  function requestpassword() {
-   var password = prompt("Please enter the password");
-    if (password == "MadeyYouLook") {
-        document.getElementById("pass1").innerHTML = window.location.href = 'https://interdark.com/Courses.html';
-      }
-      else{
-      window.alert("Invalid Password");
-    }
-  }
-  function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
 </body>
        
 </html>
