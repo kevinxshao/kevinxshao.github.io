@@ -4,6 +4,7 @@ body {
     width:100vw;
     height: 100vh;
     background-color: #eee;
+ 
   }
   .content {
     display: flex;
@@ -11,6 +12,8 @@ body {
     align-items: center;
     width:100%;
     height:100%;
+    background-image: url('Pictures/Projects/projects_background.jpg');  
+    background-size:cover;
   }
   .loader-wrapper {
     width: 100%;
@@ -30,6 +33,7 @@ body {
     position: relative;
     border: 4px solid #Fff;
     animation: loader 2s infinite ease;
+  
   }
   .loader-inner {
     vertical-align: top;
@@ -51,4 +55,30 @@ body {
     50% { height: 100%;}
     75% { height: 100%;}
     100% { height: 0%;}
+  }
+/* Vertical Menu */
+  .vertical-menu {
+    width: 130px;
+    height: 130px;
+    overflow-y: auto;
+    position: absolute;
+    top: 58%;
+    left: 45%;
+  }
+  
+  .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
   }
