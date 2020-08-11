@@ -1,3 +1,7 @@
+html,body{
+  height:100%;
+  width:100%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +18,8 @@ body {
     height:100%;
     background-image: url('Pictures/Projects/projects_background.jpg');  
     background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   .loader-wrapper {
     width: 100%;
@@ -58,12 +64,10 @@ body {
   }
 /* Vertical Menu */
   .vertical-menu {
-    width: 130px;
-    height: 130px;
+    width: 10%;
+    height: 13%;
     overflow-y: auto;
-    position: absolute;
-    top: 58%;
-    left: 45%;
+    position: center;
   }
   
   .vertical-menu a {
@@ -72,6 +76,7 @@ body {
     display: block;
     padding: 12px;
     text-decoration: none;
+
   }
   
   .vertical-menu a:hover {
@@ -79,6 +84,46 @@ body {
   }
   
   .vertical-menu a.active {
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
   }
+  /* navbar */
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  
+  .navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: black;
+    color: ghostwhite;
+    font-size: 100%;
+  }
+  .navbar p1{
+    font-size: 300%;
+
+  }
+  
+  .navbar a.active:hover p1 {
+    color:gainsboro;
+  }
+
+  
