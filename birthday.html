@@ -7,11 +7,44 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style_birthday.css" />
+    
   </head>
   <body>
     <div class="content">
-      <img src="">
+
+      <div class="row">
+        <div class="column">
+          <img src="Pictures/Birthday/birthday_gift.jpg"  style="width:100%;" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Pictures/Birthday/birthday_smile.jpg"  style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="Pictures/Birthday/birthday_wine.jpg"  style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      <div class="container">
+        <img id="expandedImg" style="width:35%;" >
+        <div id="imgtext"></div>
+      </div>
+      <div class="navbar">
+        <a href="projects.html" class="active">
+        <p1><i>Leave</i></p1>
+        </a>
+      </div>
+      <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+}
+      </script>
     </div>
+    
+     
+   
     <div class="loader-wrapper">
       <span class="loader"><span class="loader-inner"></span></span>
     </div>
