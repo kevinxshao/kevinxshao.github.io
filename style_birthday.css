@@ -11,14 +11,11 @@ html,body{
    
     }
     .content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      text-align: center;
       width:100%;
       height:100%;
       background-image: url('Pictures/Birthday/birthday.jpg');  
       background-size: 100% 100%;
-      background-position: center;
       background-repeat: no-repeat;
     }
     .loader-wrapper {
@@ -62,3 +59,83 @@ html,body{
       75% { height: 100%;}
       100% { height: 0%;}
     }
+/* gallery */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+  /* navbar */
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  
+  .navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: black;
+    color: ghostwhite;
+    font-size: 100%;
+  }
+  .navbar p1{
+    font-size: 300%;
+
+  }
+  
+  .navbar a.active:hover p1 {
+    color:gainsboro;
+  }
+
+  
+   
