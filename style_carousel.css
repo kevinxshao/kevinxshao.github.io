@@ -29,7 +29,7 @@ html,body{
 .carousel-caption p1{
   font-size: 400%;
   color:ghostwhite;
-  text-shadow: 5px 5px black;
+  /*text-shadow: 5px 5px black; */
   font-family: 'Cardo';
   font-weight: bold;
   text-decoration: none;
@@ -68,7 +68,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #242f3f;
+  background-color: ghostwhite;
   display:flex;
   justify-content: center;
   align-items: center;
