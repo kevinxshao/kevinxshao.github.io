@@ -14,7 +14,7 @@ html{
   width: 100%;
   /* Used to get rid of the white flash in firefox will try and redo this later on but having saved the caorusel item and display 
   the current carousel item */
-  background: url(Pictures/Carousel_Images/pan2.jpg)
+  background: url(./Pictures/Carousel_Images/pan2.jpg)
 }
 .carousel-inner img {
   width: 100%;
