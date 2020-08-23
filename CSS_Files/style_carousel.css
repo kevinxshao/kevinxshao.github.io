@@ -1,0 +1,117 @@
+/* Make the image fully responsive for carousel */
+
+html{
+  height:100%;
+  width:100%;
+}
+/* Carousel styles */
+.carousel,.item,.active{
+  height:100%;
+  width: 100%;
+}
+.carousel-inner{
+  height:100%;
+  width: 100%;
+  /* Used to get rid of the white flash in firefox will try and redo this later on but having saved the caorusel item and display 
+  the current carousel item */
+  background: url(Pictures/pan2.jpg)
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner .item{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 100%;
+  /* Used to slow animaton down */
+  transition: -webkit-transform 1.5s ease;
+  transition: transform 1.5s ease;
+  transition: transform 1.5s ease, -webkit-transform 1.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+   
+ }
+ /* End of caorusel styles */
+
+ /* Style for captions on the carousel */
+.carousel-caption p1{
+  font-size: 400%;
+  color:ghostwhite;
+  /*text-shadow: 5px 5px black; */
+  font-family: 'Cardo';
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Get rid of underline on text when hovered over */
+a:link {
+  text-decoration: none;
+}
+/* Changed color when hovered over */
+.carousel-caption p1:hover{
+  color:gainsboro;
+}
+
+/*End of captions */
+
+
+/* Loader */
+body {
+  margin: 0;
+  padding: 0;
+  width:100vw;
+  height: 100vh;
+  background-color: #eee;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100%;
+}
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: ghostwhite;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border: 4px solid darkblue;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: gold;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
+/*End of loader */
