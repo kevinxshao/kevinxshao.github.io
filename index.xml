@@ -3,6 +3,8 @@
 <?xml-stylesheet href="index.css"?>
 
 <WebPage>
-
+    <headPage>
+        <titleText>InterDark</titleText>
+    </headPage>
 
 </WebPage>
