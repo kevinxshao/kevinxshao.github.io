@@ -9,6 +9,7 @@
             </head>
             <body>
                 <xsl:text>hello world</xsl:text>
+                <xsl:value-of select="WebPage/headPage/titleText"/>
             </body>
         </html>
     </xsl:template>
