@@ -5,11 +5,17 @@
         <!--disable-output-escaping set to yes makes it so it actually displays the < symbol and not just the &lt; text>-->
         <html>
             <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title><xsl:value-of select="WebPage/headPage/titleText"/></title>
+                <link rel="stylesheet" href="index.css"/>
             </head>
             <body>
-                <xsl:text>hello world</xsl:text>
-                <xsl:value-of select="WebPage/headPage/titleText"/>
+                <div class="topnav">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <input type="text" placeholder="Search.."/>
+                </div>
             </body>
         </html>
     </xsl:template>
