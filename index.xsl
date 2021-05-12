@@ -10,12 +10,38 @@
                 <link rel="stylesheet" href="index.css"/>
             </head>
             <body>
-                <div class="topnav">
-                    <a class="active" href="#home">Home</a>
+                <div class="topnav">   
+                    <a style="float:left;pointer-events: none;">InterDark</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
-                    <input type="text" placeholder="Search.."/>
+                    <a href="#news">News</a>
+                    <a class="active" href="#home">Home</a>
+                  
                 </div>
+
+                <form method="post">
+                    <div class="imgcontainer">
+                        <img src="Pictures/gingerbread.png" alt="Avatar" class="avatar"/> 
+                    </div>
+
+                    <div class="container">
+                        <label for="uname"><b>Username</b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required="required"/>
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required="required"/>
+                            
+                        <button type="submit">Login</button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"/> Remember me
+                        </label>
+                    </div>
+
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
             </body>
         </html>
     </xsl:template>
