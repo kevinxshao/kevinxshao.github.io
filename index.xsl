@@ -12,7 +12,7 @@
             </head>
             <body>
                 <div class="topnav">   
-                    <a style="float:left;pointer-events: none;font-family: 'Comic Neue';font-size:30px;font-weight:bold;font-style: italic;">InterDark</a>
+                    <a style="float:left;pointer-events: none;font-family: 'Comic Neue';font-size:18px;font-weight:bold;font-style: italic;">InterDark</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                     <a href="#news">News</a>
