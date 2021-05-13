@@ -8,14 +8,15 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title><xsl:value-of select="WebPage/headPage/titleText"/></title>
                 <link rel="stylesheet" href="index.css"/>
+                <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'/>
             </head>
             <body>
                 <div class="topnav">   
-                    <a style="float:left;pointer-events: none;">InterDark</a>
+                    <a style="float:left;pointer-events: none;font-family: 'Comic Neue';font-size:50px;font-weight:bold;font-style: italic;">InterDark</a>
                     <a href="#about">About</a>
                     <a href="#contact">Contact</a>
                     <a href="#news">News</a>
-                    <a class="active" href="#home">Home</a>
+                    <a class="active" href="#login">Login</a>
                   
                 </div>
 
