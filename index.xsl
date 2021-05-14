@@ -12,12 +12,11 @@
             </head>
             <body>
                 <div class="topnav">   
-                    <a style="float:left;pointer-events: none;font-family: 'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#news">News</a>
-                    <a class="active" href="#login">Login</a>
-                  
+                    <a style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="WebPage/bodyPage/topMenuBar/logoMenuItem"/></a>
+                    <a href="#about"><xsl:value-of select="WebPage/bodyPage/topMenuBar/fourthMenuItem"/></a>
+                    <a href="#contact"><xsl:value-of select="WebPage/bodyPage/topMenuBar/thirdMenuItem"/></a>
+                    <a href="news.xml"><xsl:value-of select="WebPage/bodyPage/topMenuBar/secondMenuItem"/></a>
+                    <a class="active" href="#login"><xsl:value-of select="WebPage/bodyPage/topMenuBar/firstMenuItem"/></a>
                 </div>
 
                 <form method="post">
@@ -26,21 +25,21 @@
                     </div>
 
                     <div class="container">
-                        <label for="uname"><b>Username</b></label>
+                        <label for="uname"><b><xsl:value-of select="WebPage/bodyPage/loginInterface/usernameInputTitle"/></b></label>
                         <input type="text" placeholder="Enter Username" name="uname" required="required"/>
 
-                        <label for="psw"><b>Password</b></label>
+                        <label for="psw"><b><xsl:value-of select="WebPage/bodyPage/loginInterface/passwordInputTitle"/></b></label>
                         <input type="password" placeholder="Enter Password" name="psw" required="required"/>
                             
-                        <button type="submit">Login</button>
+                        <button type="submit"><xsl:value-of select="WebPage/bodyPage/loginInterface/loginButtonName"/></button>
                         <label>
-                            <input type="checkbox" checked="checked" name="remember"/> Remember me
+                            <input type="checkbox" checked="checked" name="remember"/><xsl:text> </xsl:text><xsl:value-of select="WebPage/bodyPage/loginInterface/rememberMeButtonName"/>
                         </label>
                     </div>
 
                     <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+                        <button type="button" class="cancelbtn"><xsl:value-of select="WebPage/bodyPage/loginInterface/cancelButtonName"/></button>
+                        <span class="psw"><xsl:value-of select="WebPage/bodyPage/loginInterface/forgetText"/><a href="#"><xsl:value-of select="WebPage/bodyPage/loginInterface/forgetPasswordText"/></a></span>
                     </div>
                 </form>
             </body>

@@ -6,5 +6,24 @@
     <headPage>
         <titleText>InterDark</titleText>
     </headPage>
+    <bodyPage>
+        <topMenuBar>
+            <firstMenuItem>Login</firstMenuItem>
+            <secondMenuItem>News</secondMenuItem>
+            <thirdMenuItem>Contact</thirdMenuItem>
+            <fourthMenuItem>About</fourthMenuItem>
+            <logoMenuItem>InterDark</logoMenuItem>
+        </topMenuBar>
 
+        <loginInterface>
+            <usernameInputTitle>Username</usernameInputTitle>
+            <passwordInputTitle>Password</passwordInputTitle>
+            <loginButtonName>Login</loginButtonName>
+            <rememberMeButtonName>Remember me</rememberMeButtonName>
+            <cancelButtonName>Cancel</cancelButtonName>
+            <forgetText>Forgot </forgetText>
+            <forgetPasswordText>password?</forgetPasswordText>
+        </loginInterface>
+        
+    </bodyPage>
 </WebPage>
