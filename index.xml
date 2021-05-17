@@ -2,28 +2,29 @@
 <?xml-stylesheet type = "text/xsl" href = "index.xsl"?>
 <?xml-stylesheet href="index.css"?>
 
-<WebPage>
-    <headPage>
-        <titleText>InterDark</titleText>
-    </headPage>
-    <bodyPage>
-        <topMenuBar>
-            <firstMenuItem>Login</firstMenuItem>
-            <secondMenuItem>News</secondMenuItem>
-            <thirdMenuItem>Contact</thirdMenuItem>
-            <fourthMenuItem>About</fourthMenuItem>
-            <logoMenuItem>InterDark</logoMenuItem>
-        </topMenuBar>
 
-        <loginInterface>
-            <usernameInputTitle>Username</usernameInputTitle>
-            <passwordInputTitle>Password</passwordInputTitle>
-            <loginButtonName>Login</loginButtonName>
-            <rememberMeButtonName>Remember me</rememberMeButtonName>
-            <cancelButtonName>Cancel</cancelButtonName>
-            <forgetText>Forgot </forgetText>
-            <forgetPasswordText>password?</forgetPasswordText>
-        </loginInterface>
+<tns:WebPage xmlns:tns="https://interdark.com/index.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://interdark.com/index.xml index.xsd">
+    <tns:headPage>
+        <tns:titleText>InterDark</tns:titleText>
+    </tns:headPage>
+    <tns:bodyPage>
+        <tns:topMenuBar>
+            <tns:firstMenuItem>Login</tns:firstMenuItem>
+            <tns:secondMenuItem>News</tns:secondMenuItem>
+            <tns:thirdMenuItem>Contact</tns:thirdMenuItem>
+            <tns:fourthMenuItem>About</tns:fourthMenuItem>
+            <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+        </tns:topMenuBar>
+
+        <tns:loginInterface>
+            <tns:usernameInputTitle>Username</tns:usernameInputTitle>
+            <tns:passwordInputTitle>Password</tns:passwordInputTitle>
+            <tns:loginButtonName>Login</tns:loginButtonName>
+            <tns:rememberMeButtonName>Remember me</tns:rememberMeButtonName>
+            <tns:cancelButtonName>Cancel</tns:cancelButtonName>
+            <tns:forgetText>Forgot </tns:forgetText>
+            <tns:forgetPasswordText>password?</tns:forgetPasswordText>
+        </tns:loginInterface>
         
-    </bodyPage>
-</WebPage>
+    </tns:bodyPage>
+</tns:WebPage>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://interdark.com/index.xml" xmlns:tns="https://interdark.com/index.xml" elementFormDefault="qualified">
+    
+    <xs:element name="WebPage">
+     <xs:complexType>
+	     <xs:sequence>
+		  	<xs:element name="headPage" maxOccurs="1">
+		  		<xs:complexType>
+		  			<xs:sequence>
+		  				<xs:element name="titleText" type="xs:string" maxOccurs="1"/>
+		  			</xs:sequence>
+		  		</xs:complexType>
+		  	</xs:element>
+		  	<xs:element name="bodyPage" maxOccurs="1">
+		  		<xs:complexType>
+		  			<xs:sequence>
+		  				<xs:element name="topMenuBar" maxOccurs="1">
+		  					<xs:complexType>
+		  						<xs:sequence>
+		  							<xs:element name="firstMenuItem" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="secondMenuItem" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="thirdMenuItem" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="fourthMenuItem" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="logoMenuItem" type="xs:string" maxOccurs="1"/>
+		  						</xs:sequence>
+		  					</xs:complexType>
+		  				</xs:element>
+		  				<xs:element name="loginInterface">
+		  					<xs:complexType>
+		  						<xs:sequence>
+		  							<xs:element name="usernameInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="passwordInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="loginButtonName" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="rememberMeButtonName" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="cancelButtonName" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="forgetText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="forgetPasswordText" type="xs:string" maxOccurs="1"/>
+		  						</xs:sequence>
+		  					</xs:complexType>
+		  				</xs:element>
+		  			</xs:sequence>
+		  		</xs:complexType>
+		  	</xs:element>
+	     </xs:sequence>
+     </xs:complexType>
+	</xs:element>
+
+</xs:schema>
