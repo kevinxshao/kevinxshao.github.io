@@ -26,14 +26,7 @@
 
                 <!-- TODO: Add SDKs for Firebase products that you want to use
                     https://firebase.google.com/docs/web/setup#available-libraries -->
-                 <script src="/__/firebase/8.6.1/firebase-app.js"></script>
-
-                <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
-                <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
-
-                <!-- Add Firebase products that you want to use -->
-                <script src="/__/firebase/8.6.1/firebase-auth.js"></script>
-                <script src="/__/firebase/8.6.1/firebase-firestore.js"></script>
+                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
                 <script src="firebaselogin.js"> </script>      
                 <script src="news.js"> </script>            
             </body>
