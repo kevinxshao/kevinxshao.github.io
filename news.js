@@ -10,7 +10,6 @@ firebase.auth().onAuthStateChanged(function(user) {
     document.getElementById("login_div").style.display = "initial";
     window.alert("no one is in");
   }
-  }
 });
 function login(){
     var userEmail = document.getElementById("email_field").value;
