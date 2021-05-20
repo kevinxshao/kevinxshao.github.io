@@ -19,29 +19,29 @@
                     <a class="active" href="#login"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
                 <div id="login_div">
-                    <form>
-                        <div class="imgcontainer">
-                            <img src="Pictures/gingerbread.png" alt="Avatar" class="avatar"/> 
-                        </div>
 
-                        <div class="container">
-                            <label for="uname"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:usernameInputTitle"/></b></label>
-                            <input type="text" placeholder="Enter Username" name="uname" required="required" id="email_field"/>
+                    <div class="imgcontainer">
+                        <img src="Pictures/gingerbread.png" alt="Avatar" class="avatar"/> 
+                    </div>
 
-                            <label for="psw"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:passwordInputTitle"/></b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_field"/>
+                    <div class="container">
+                        <label for="uname"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:usernameInputTitle"/></b></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required="required" id="email_field"/>
+
+                        <label for="psw"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:passwordInputTitle"/></b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_field"/>
                                 
-                            <button onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember"/><xsl:text> </xsl:text><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:rememberMeButtonName"/>
-                            </label>
-                        </div>
+                        <button onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"/><xsl:text> </xsl:text><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:rememberMeButtonName"/>
+                         </label>
+                    </div>
 
-                        <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" class="cancelbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
-                            <span class="psw"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
-                        </div>
-                    </form>
+                    <div class="container" style="background-color:#f1f1f1">
+                        <button type="button" class="cancelbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
+                        <span class="psw"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
+                    </div>
+
                 </div>
                 <div id="user_div">
                     <h3>Welcome User</h3>
