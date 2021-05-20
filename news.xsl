@@ -19,7 +19,7 @@
                 <div id="user_div" class="loggedin-div">
                     <h3>Welcome User</h3>
                     <p>Welcome to Firebase web login Example. You're currently logged in.</p>
-                    <button>Logoout</button>
+                    <button onclick="logout()">Logoout</button>
                 </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
