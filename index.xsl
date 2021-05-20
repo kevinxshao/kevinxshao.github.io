@@ -19,7 +19,7 @@
                     <a class="active" href="#login"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
                 <div id="login_div">
-                    <form method="post">
+                    <form>
                         <div class="imgcontainer">
                             <img src="Pictures/gingerbread.png" alt="Avatar" class="avatar"/> 
                         </div>
