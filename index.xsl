@@ -46,7 +46,7 @@
                 <div id="user_div">
                     <h3>Welcome User</h3>
                     <p> Welcome to my website. Still a work in progress</p>
-                    <button>Logout</button>
+                    <button onclick="logout()">Logout</button>
                 </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
