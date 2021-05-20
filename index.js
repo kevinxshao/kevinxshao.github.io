@@ -1,12 +1,9 @@
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
-      document.getElementById("user_div").style.display="initial";
-      document.getElementById("login_div").style.display="none";    
+      window.location.href = "https://interdark.com/news.xml";
     } else {
-      // No user is signed in.
-      document.getElementById("user_div").style.display="none";
-      document.getElementById("login_div").style.display="initial";    
+       window.location.href = "https://interdark.com/index.xml";
     }
   });
 function login(){
