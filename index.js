@@ -1,9 +1,12 @@
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
-      window.location.href = "https://interdark.com/news.xml";
+      document.getElementById("user_div").style.display="block";
+      document.getElementById("login_div").style.display="none";    
     } else {
-       window.location.href = "https://interdark.com/index.xml";
+      // No user is signed in.
+      document.getElementById("user_div").style.display="none";
+      document.getElementById("login_div").style.display="block";    
     }
   });
 function login(){
@@ -19,7 +22,15 @@ function login(){
     .catch((error) => {
       var errorCode = error.code;
       var errorMessage = error.message;
-      window.alert("I'm out");
+      window.alert("Error : " + errorMessage);
     });   
- 
+}
+
+function logout(){
+    firebase.auth().signOut().then(() => {
+        // Sign-out successful.
+      }).catch((error) => {
+        // An error happened.
+      });
+      
 }
