@@ -12,7 +12,9 @@
             </head>
             <body>
                 <div class="topnav">   
+                
                     <a style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                    <a id="logoutButton" onclick="logout()">Logout</a>
                     <a href="#about"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
                     <a href="#contact"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
                     <a href="news.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
@@ -46,6 +48,13 @@
                 <div id="user_div">
                     <h3>Welcome User</h3>
                     <p> Welcome to my website. Still a work in progress</p>
+                    <div class="gallery">
+                        <a target="_blank" href="Pictures/gingerbread.png">
+                            <img src="Pictures/gingerbread.png" alt="Cinque Terre" width="600" height="400"/>
+                        </a>
+                        <div class="desc">Go to da Moon!</div>
+                    </div>
+
                     <button onclick="logout()">Logout</button>
                 </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
