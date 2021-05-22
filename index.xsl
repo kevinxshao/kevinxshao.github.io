@@ -12,10 +12,16 @@
             </head>
             <body>
                 <div class="topnav">   
-                
                     <a class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
                     <a onclick="logout()" style="cursor: pointer;display: none;" id="loggedin1">Logout</a>
-                    <a class="active" style="cursor: pointer;display: none" id="loggedin2">My Account</a>
+                    <div class="dropdown" style="display: none;" id="loggedin2">
+                        <button class="dropbtn">My Account</button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
                     <a href="#about" id="loggedout4"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
                     <a href="#contact" id="loggedout3"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
                     <a href="news.xml" id="loggedout2"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
