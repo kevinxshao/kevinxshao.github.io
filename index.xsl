@@ -14,8 +14,8 @@
                 <div class="topnav">   
                 
                     <a class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
-                    <a onclick="logout()" style="cursor: pointer;" id="loggedin1">Logout</a>
-                    <a class="active" style="cursor: pointer;" id="loggedin2">My Account</a>
+                    <a onclick="logout()" style="cursor: pointer;display: none;" id="loggedin1">Logout</a>
+                    <a class="active" style="cursor: pointer;display: none" id="loggedin2">My Account</a>
                     <a href="#about" id="loggedout4"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
                     <a href="#contact" id="loggedout3"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
                     <a href="news.xml" id="loggedout2"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
@@ -34,7 +34,7 @@
                         <label for="psw"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:passwordInputTitle"/></b></label>
                         <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_field"/>
                                 
-                        <button onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
+                        <button class="glow2" onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
                         <label>
                             <input type="checkbox" checked="checked" name="remember"/><xsl:text> </xsl:text><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:rememberMeButtonName"/>
                          </label>
