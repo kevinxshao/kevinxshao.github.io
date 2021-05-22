@@ -21,7 +21,7 @@
             <tns:passwordInputTitle>Password</tns:passwordInputTitle>
             <tns:loginButtonName>Login</tns:loginButtonName>
             <tns:rememberMeButtonName>Remember me</tns:rememberMeButtonName>
-            <tns:cancelButtonName>Cancel</tns:cancelButtonName>
+            <tns:cancelButtonName>Sign Up</tns:cancelButtonName>
             <tns:forgetText>Forgot </tns:forgetText>
             <tns:forgetPasswordText>password?</tns:forgetPasswordText>
         </tns:loginInterface>

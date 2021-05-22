@@ -41,14 +41,14 @@
                     </div>
 
                     <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="cancelbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
-                        <span class="psw"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
+                        <button type="button" class="signupbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
+                        <span class="psw"><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
                     </div>
 
                 </div>
                 <div id="user_div">
                     <h3>Welcome User</h3>
-                    <p> Welcome to my website. Still a work in progress</p>
+                    <p style="text-align: center;"> Welcome to my website. Still a work in progress</p>
                     <div class="gallery">
                         <a target="_blank" href="Pictures/gingerbread.png">
                             <img src="Pictures/gingerbread.png" alt="Cinque Terre" width="600" height="400"/>
