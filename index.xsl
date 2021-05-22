@@ -13,12 +13,13 @@
             <body>
                 <div class="topnav">   
                 
-                    <a style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
-                    <a id="logoutButton" onclick="logout()">Logout</a>
-                    <a href="#about"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
-                    <a href="#contact"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
-                    <a href="news.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
-                    <a class="active" href="#login"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
+                    <a class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                    <a onclick="logout()" style="cursor: pointer;" id="loggedin">Logout</a>
+                    <a class="active" onclick="logout()" style="cursor: pointer;" id="loggedin">My Account</a>
+                    <a href="#about" id="loggedout"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
+                    <a href="#contact" id="loggedout"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
+                    <a href="news.xml" id="loggedout"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
+                    <a class="active" href="#login" id="loggedout"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
                 <div id="login_div">
 
@@ -54,8 +55,6 @@
                         </a>
                         <div class="desc">Go to da Moon!</div>
                     </div>
-
-                    <button onclick="logout()">Logout</button>
                 </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
