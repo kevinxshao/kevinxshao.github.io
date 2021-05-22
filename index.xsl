@@ -24,7 +24,7 @@
                 <div id="login_div">
 
                     <div class="imgcontainer">
-                        <img src="Pictures/gingerbread.png" alt="Avatar" class="avatar"/> 
+                        <img src="Pictures/user_login.png" alt="Avatar" class="avatar"/> 
                     </div>
 
                     <div class="container">
@@ -46,12 +46,12 @@
                     </div>
 
                 </div>
-                <div id="user_div">
+                <div id="user_div" style="display: none;">
                     <h3>Welcome User</h3>
                     <p style="text-align: center;"> Welcome to my website. Still a work in progress</p>
                     <div class="gallery">
-                        <a target="_blank" href="Pictures/gingerbread.png">
-                            <img src="Pictures/gingerbread.png" alt="Cinque Terre" width="600" height="400"/>
+                        <a target="_blank" href="Pictures/user_login.png">
+                            <img src="Pictures/user_login.png" alt="Cinque Terre" width="600" height="400"/>
                         </a>
                         <div class="desc">Go to da Moon!</div>
                     </div>
