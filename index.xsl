@@ -34,8 +34,8 @@
                     </div>
 
                     <div class="container">
-                        <label for="uname"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:usernameInputTitle"/></b></label>
-                        <input type="text" placeholder="Enter Username" name="uname" required="required" id="email_field"/>
+                        <label for="email"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:usernameInputTitle"/></b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required="required" id="email_field"/>
 
                         <label for="psw"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:passwordInputTitle"/></b></label>
                         <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_field"/>
@@ -53,7 +53,7 @@
 
                 </div>
                 <div id="user_div" style="display: none;">
-                    <h3 id="user_header">Welcome User : stlkscar@hotmail.com</h3>
+                    <h3 id="user_header">Welcome User : </h3>
                     <p style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
                     <div class="slideshow-container">
                         <div class="mySlides fade">

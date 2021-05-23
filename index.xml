@@ -17,7 +17,7 @@
         </tns:topMenuBar>
 
         <tns:loginInterface>
-            <tns:usernameInputTitle>Username</tns:usernameInputTitle>
+            <tns:usernameInputTitle>Email</tns:usernameInputTitle>
             <tns:passwordInputTitle>Password</tns:passwordInputTitle>
             <tns:loginButtonName>Login</tns:loginButtonName>
             <tns:rememberMeButtonName>Remember me</tns:rememberMeButtonName>
