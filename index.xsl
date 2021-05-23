@@ -22,12 +22,12 @@
                             <a href="#">Stats</a>
                         </div>
                     </div>
-                    <a href="#about" id="loggedout4"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
-                    <a href="#contact" id="loggedout3"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
-                    <a href="news.xml" id="loggedout2"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
-                    <a class="active" href="#login" id="loggedout1"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
+                    <a href="#about" id="loggedout4" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
+                    <a href="#contact" id="loggedout3" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
+                    <a href="news.xml" id="loggedout2" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
+                    <a class="active" href="#login" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
-                <div id="login_div" style="display: none;">
+                <div id="login_div">
 
                     <div class="imgcontainer">
                         <img src="Pictures/user_login.png" alt="Avatar" class="avatar"/> 
