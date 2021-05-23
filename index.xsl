@@ -94,16 +94,18 @@
                         </div>
 
                         <div class="container">
+                            <h1>Sign Up</h1>
+                            <p>Please fill the form below to create an account.</p>
                             <label for="uname"><b>Email</b></label>
-                            <input type="text" placeholder="Enter Email" name="uname" required="required"/>
+                            <input type="text" placeholder="Enter Email" name="uname" required="required" id="email_create"/>
 
                             <label for="psw"><b>Password</b></label>
-                            <input type="password" placeholder="Enter Password" name="psw" required="required"/>
+                            <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_create"/>
                                 
                             <label for="confirmpsw"><b>Confirm Password</b></label>
-                            <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required"/>    
+                            <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required" id="password_confirm"/>    
 
-                            <button class="signupbtn2">Sign Up</button>
+                            <button class="signupbtn2" onclick="createAccount()">Sign Up</button>
                             <label>
                                 <input type="checkbox" checked="checked" name="remember"/> Remember me
                             </label>
@@ -126,6 +128,7 @@
                 <script src="index.js"> </script>        
                 <script src="indexmodal.js"> </script>  
                 <script src="indexslideshow.js"> </script>  
+                <script src="indexsignup.js"> </script>  
             </body>
         </html>
     </xsl:template>
