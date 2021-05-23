@@ -17,9 +17,9 @@
                     <div class="dropdown" style="display: none;" id="loggedin2">
                         <button id="dropdownbtn" class="dropbtn">My Account</button>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#">Home</a>
+                            <a href="#">Shop</a>
+                            <a href="#">Stats</a>
                         </div>
                     </div>
                     <a href="#about" id="loggedout4"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
@@ -52,21 +52,16 @@
                     </div>
 
                 </div>
-                <div id="user_div" style="display: none;">
-                    <h3>Welcome User</h3>
-                    <p style="text-align: center;"> Welcome to my website. Still a work in progress</p>
-                    <div class="gallery">
-                        <a target="_blank" href="Pictures/user_login.png">
-                            <img src="Pictures/user_login.png" alt="Cinque Terre" width="600" height="400"/>
-                        </a>
-                        <div class="desc">Go to da Moon!</div>
-                    </div>
+                <div id="user_div" style="display: block;">
+                    <h3 id="user_header">Welcome User : </h3>
+                    <p style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
+
                 </div>
 
                 <div id="id01" class="modal">
                     <div class="modal-content animate">
                         <div class="imgcontainer2">
-                           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+                           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">X</span>
                         </div>
 
                         <div class="container">
@@ -90,6 +85,37 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="Pictures/courses.png" style="width:100%"/>
+                    <div class="text">Courses</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="Pictures/games.png" style="width:100%"/>
+                    <div class="text">Games</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="Pictures/birthday.png" style="width:100%"/>
+                    <div class="text">Birthday</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&lt;</a>
+                    <a class="next" onclick="plusSlides(1)">&gt;</a>
+
+                    </div>
+                    <br/>
+
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
@@ -99,6 +125,7 @@
                 <script src="firebaselogin.js"> </script>      
                 <script src="index.js"> </script>        
                 <script src="indexmodal.js"> </script>  
+                <script src="indexslideshow.js"> </script>  
             </body>
         </html>
     </xsl:template>

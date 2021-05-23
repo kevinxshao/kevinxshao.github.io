@@ -9,6 +9,10 @@ firebase.auth().onAuthStateChanged(function(user) {
       document.getElementById("loggedout2").style.display="none";  
       document.getElementById("loggedout3").style.display="none";  
       document.getElementById("loggedout4").style.display="none";  
+      if(user != null){
+        var email_id = user.email;
+        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id;
+      }
     } else {
       // No user is signed in.
       document.getElementById("user_div").style.display="none";
