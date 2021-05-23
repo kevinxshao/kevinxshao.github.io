@@ -79,7 +79,7 @@
                             <label for="confirmpsw"><b>Confirm Password</b></label>
                             <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required"/>    
 
-                            <button type="submit">Sign Up</button>
+                            <button class="signupbtn2">Sign Up</button>
                             <label>
                                 <input type="checkbox" checked="checked" name="remember"/> Remember me
                             </label>
