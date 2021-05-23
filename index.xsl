@@ -58,19 +58,19 @@
                     <div class="slideshow-container">
                         <div class="mySlides fade">
                         <div class="numbertext">1 / 3</div>
-                        <img src="Pictures/courses.png" style="width:100%"/>
+                        <img src="Pictures/courses.png" style="width:100%" id="slideshowpic"/>
                         <div class="text">Courses</div>
                         </div>
 
                         <div class="mySlides fade">
                         <div class="numbertext">2 / 3</div>
-                        <img src="Pictures/birthday.png" style="width:100%"/>
+                        <img src="Pictures/games.png" style="width:100%" id="slideshowpic"/>
                         <div class="text">Games</div>
                         </div>
 
                         <div class="mySlides fade">
                         <div class="numbertext">3 / 3</div>
-                        <img src="Pictures/games.png" style="width:100%"/>
+                        <img src="Pictures/birthday.png" style="width:100%" id="slideshowpic"/>
                         <div class="text">Birthday</div>
                         </div>
 
