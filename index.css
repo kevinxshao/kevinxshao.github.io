@@ -104,6 +104,11 @@ span.psw {
   #dropdownbtn{
     font-size: 12px;
   }
+  #user_header{
+    font-size: 30px;
+    word-wrap: break-word;
+  }
+  
 }
 
 
@@ -359,5 +364,5 @@ img {vertical-align: middle;}
 
 #slideshowpic{
   width:500px;
-  height:500px;
+  height:400px;
 }

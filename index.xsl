@@ -53,7 +53,7 @@
 
                 </div>
                 <div id="user_div" style="display: none;">
-                    <h3 id="user_header">Welcome User : </h3>
+                    <h3 id="user_header">Welcome User : stlkscar@hotmail.com</h3>
                     <p style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
                     <div class="slideshow-container">
                         <div class="mySlides fade">
