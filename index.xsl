@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="container" style="background-color:#f1f1f1">
-                        <button type="button" class="signupbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
+                        <button type="button" class="signupbtn" onclick="document.getElementById('id01').style.display='block'"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
                         <span class="psw"><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
                     </div>
 
@@ -62,6 +62,34 @@
                         <div class="desc">Go to da Moon!</div>
                     </div>
                 </div>
+
+                <div id="id01" class="modal">
+                    <div class="modal-content animate">
+                        <div class="imgcontainer2">
+                           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">X</span>
+                        </div>
+
+                        <div class="container">
+                            <label for="uname"><b>Email</b></label>
+                            <input type="text" placeholder="Enter Email" name="uname" required="required"/>
+
+                            <label for="psw"><b>Password</b></label>
+                            <input type="password" placeholder="Enter Password" name="psw" required="required"/>
+                                
+                            <label for="confirmpsw"><b>Confirm Password</b></label>
+                            <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required"/>    
+
+                            <button type="submit">Sign Up</button>
+                            <label>
+                                <input type="checkbox" checked="checked" name="remember"/> Remember me
+                            </label>
+                        </div>
+
+                        <div class="container" style="background-color:#f1f1f1">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        </div>
+                    </div>
+                </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
@@ -69,7 +97,8 @@
                     https://firebase.google.com/docs/web/setup#available-libraries -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
                 <script src="firebaselogin.js"> </script>      
-                <script src="index.js"> </script>         
+                <script src="index.js"> </script>        
+                <script src="indexmodal.js"> </script>  
             </body>
         </html>
     </xsl:template>
