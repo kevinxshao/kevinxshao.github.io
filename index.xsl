@@ -64,13 +64,13 @@
 
                         <div class="mySlides fade">
                         <div class="numbertext">2 / 3</div>
-                        <img src="Pictures/games.png" style="width:100%"/>
+                        <img src="Pictures/birthday.png" style="width:100%"/>
                         <div class="text">Games</div>
                         </div>
 
                         <div class="mySlides fade">
                         <div class="numbertext">3 / 3</div>
-                        <img src="Pictures/birthday.png" style="width:100%"/>
+                        <img src="Pictures/games.png" style="width:100%"/>
                         <div class="text">Birthday</div>
                         </div>
 
@@ -84,7 +84,7 @@
                         <span class="dot" onclick="currentSlide(1)"></span> 
                         <span class="dot" onclick="currentSlide(2)"></span> 
                         <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
+                    </div>
                 </div>
 
                 <div id="id01" class="modal">
