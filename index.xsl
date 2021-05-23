@@ -52,10 +52,39 @@
                     </div>
 
                 </div>
-                <div id="user_div" style="display: block;">
+                <div id="user_div" style="display: none;">
                     <h3 id="user_header">Welcome User : </h3>
                     <p style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="Pictures/courses.png" style="width:100%"/>
+                        <div class="text">Courses</div>
+                        </div>
 
+                        <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="Pictures/games.png" style="width:100%"/>
+                        <div class="text">Games</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="Pictures/birthday.png" style="width:100%"/>
+                        <div class="text">Birthday</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">&lt;</a>
+                        <a class="next" onclick="plusSlides(1)">&gt;</a>
+
+                        </div>
+                        <br/>
+
+                        <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
                 </div>
 
                 <div id="id01" class="modal">
@@ -86,36 +115,7 @@
                     </div>
                 </div>
 
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="Pictures/courses.png" style="width:100%"/>
-                    <div class="text">Courses</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="Pictures/games.png" style="width:100%"/>
-                    <div class="text">Games</div>
-                    </div>
-
-                    <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="Pictures/birthday.png" style="width:100%"/>
-                    <div class="text">Birthday</div>
-                    </div>
-
-                    <a class="prev" onclick="plusSlides(-1)">&lt;</a>
-                    <a class="next" onclick="plusSlides(1)">&gt;</a>
-
-                    </div>
-                    <br/>
-
-                    <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
+                
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
