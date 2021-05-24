@@ -106,9 +106,6 @@
                             <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required" id="password_confirm"/>    
 
                             <button class="signupbtn2" onclick="createAccount()">Sign Up</button>
-                            <label>
-                                <input type="checkbox" checked="checked" name="remember"/> Remember me
-                            </label>
                         </div>
 
                         <div class="container" style="background-color:#f1f1f1">
