@@ -11,7 +11,18 @@ firebase.auth().onAuthStateChanged(function(user) {
       document.getElementById("loggedout4").style.display="none";  
       if(user != null){
         var email_id = user.email;
-        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id;
+        var email_verified = user.emailVerified;
+
+        if(email_verified) {
+          document.getElementById("verify1").style.display ="none";
+          document.getElementById("verify2").style.display ="none";
+        }
+        else{
+          document.getElementById("verify1").style.display ="block";
+          document.getElementById("verify2").style.display ="block";
+        }
+
+        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id; + "<br/> Verified : " + email_verified;
       }
     } else {
       // No user is signed in.
