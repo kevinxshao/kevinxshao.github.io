@@ -8,8 +8,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       document.getElementById("loggedout1").style.display="none";  
       document.getElementById("loggedout2").style.display="none";  
       document.getElementById("loggedout3").style.display="none";  
-      document.getElementById("loggedout4").style.display="none"; 
-      document.getElementById("id01").style.display="none";   
+      document.getElementById("loggedout4").style.display="none";  
       if(user != null){
         var email_id = user.email;
         var email_verified = user.emailVerified;
