@@ -54,25 +54,25 @@
                 </div>
                 <div id="user_div" style="display: none;">
                     <h3 id="user_header">Welcome User : </h3>
-                    <p style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
+                    <p id="user_para" style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
                     <p id="verify1" style="text-align: center;">Your account has been sucessfully created. Please verify your email.</p>
-                    <p id="verify2" style="text-align: center;">Click <a onclick="send_verification()">here</a> to resend verification</p>
+                    <p id="verify2" style="text-align: center;">Click <a onclick="send_verification()" style="cursor: pointer; text-decoration: underline;font-weight: bold;">here</a> to resend verification</p>
                     <div class="slideshow-container">
                         <div class="mySlides fade">
                         <div class="numbertext">1 / 3</div>
-                        <img src="Pictures/courses.png" style="width:100%" id="slideshowpic"/>
+                        <img src="Pictures/courses.png" style="width:100%" id="slideshowpic1"/>
                         <div class="text">Courses</div>
                         </div>
 
                         <div class="mySlides fade">
                         <div class="numbertext">2 / 3</div>
-                        <img src="Pictures/games.png" style="width:100%" id="slideshowpic"/>
+                        <img src="Pictures/games.png" style="width:100%" id="slideshowpic2"/>
                         <div class="text">Games</div>
                         </div>
 
                         <div class="mySlides fade">
                         <div class="numbertext">3 / 3</div>
-                        <img src="Pictures/birthday.png" style="width:100%" id="slideshowpic"/>
+                        <img src="Pictures/birthday.png" style="width:100%" id="slideshowpic3"/>
                         <div class="text">Birthday</div>
                         </div>
 

@@ -108,7 +108,15 @@ span.psw {
     font-size: 30px;
     word-wrap: break-word;
   }
-  
+  #user_para{
+    font-size: 14px;
+  }
+  #verify1{
+    font-size: 12px;
+  }
+  #verify2{
+    font-size: 12px;
+  }
 }
 
 
@@ -361,7 +369,14 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-#slideshowpic{
-  width:500px;
+#slideshowpic1{
+  height:400px;
+}
+
+#slideshowpic2{
+  height:400px;
+}
+
+#slideshowpic3{
   height:400px;
 }
