@@ -22,7 +22,7 @@ firebase.auth().onAuthStateChanged(function(user) {
           document.getElementById("verify2").style.display ="block";
         }
 
-        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id; + "<br/> Verified : " + email_verified;
+        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id; 
       }
     } else {
       // No user is signed in.
