@@ -8,8 +8,9 @@ function createAccount(){
         // Signed in 
         var user = userCredential.user;
         // ...
-        document.getElementById("id01").style.display="none"; 
         update_profile();  
+        document.getElementById("id01").style.display="none"; 
+
         send_verification();
       })
       .catch((error) => {
