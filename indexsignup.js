@@ -40,7 +40,7 @@ function update_profile(){
   user.updateProfile({
     displayName: document.getElementById("displayname_create").value, 
   }).then(function() {
-    document.getElementById("user_header").innerHTML = "Welcome User : " + email_id + " " + profilename; 
+    document.getElementById("user_header").innerHTML = "Welcome User : " + user.displayName; 
   }).catch(function(error) {
     window.alert("Error : " + error);
   });
