@@ -27,7 +27,7 @@
                     <a href="news.xml" id="loggedout2" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
                     <a class="active" href="#login" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
-                <div id="login_div" style="display: block;">
+                <div id="login_div" style="display: none;">
 
                     <div class="imgcontainer">
                         <img src="Pictures/user_login.png" alt="Avatar" class="avatar"/> 
