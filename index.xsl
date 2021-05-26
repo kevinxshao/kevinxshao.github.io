@@ -27,7 +27,7 @@
                     <a href="news.xml" id="loggedout2" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
                     <a class="active" href="#login" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                 </div>
-                <div id="login_div" style="display: none;">
+                <div id="login_div" style="display: block;">
 
                     <div class="imgcontainer">
                         <img src="Pictures/user_login.png" alt="Avatar" class="avatar"/> 
@@ -98,6 +98,10 @@
                         <div class="container">
                             <h1>Sign Up</h1>
                             <p>Please fill the form below to create an account.</p>
+
+                            <label for="dname"><b>Name</b></label>
+                            <input type="text" placeholder="Name" name="dname" required="required" id="displayname_create"/>
+
                             <label for="uname"><b>Email</b></label>
                             <input type="text" placeholder="Enter Email" name="uname" required="required" id="email_create"/>
 

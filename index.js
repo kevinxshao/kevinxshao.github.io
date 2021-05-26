@@ -12,7 +12,7 @@ firebase.auth().onAuthStateChanged(function(user) {
       if(user != null){
         var email_id = user.email;
         var email_verified = user.emailVerified;
-
+        var profilename = user.displayName;
         if(email_verified) {
           document.getElementById("verify1").style.display ="none";
           document.getElementById("verify2").style.display ="none";
@@ -22,7 +22,7 @@ firebase.auth().onAuthStateChanged(function(user) {
           document.getElementById("verify2").style.display ="block";
         }
 
-        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id; 
+        document.getElementById("user_header").innerHTML = "Welcome User : " + email_id + " " + profilename; 
       }
     } else {
       // No user is signed in.

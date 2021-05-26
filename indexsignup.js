@@ -33,3 +33,14 @@ function send_verification(){
     window.alert("Error : " + error);
   });
 }
+
+function update_profile(){
+  var user = firebase.auth().currentUser;
+  user.updateProfile({
+    displayName: document.getElementById("displayname_create").value, 
+  }).then(function() {
+    // Update successful.
+  }).catch(function(error) {
+    window.alert("Error : " + error);
+  });
+}
