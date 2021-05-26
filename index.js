@@ -22,8 +22,9 @@ firebase.auth().onAuthStateChanged(function(user) {
           document.getElementById("verify1").style.display ="block";
           document.getElementById("verify2").style.display ="block";
         }
-
-        document.getElementById("user_header").innerHTML = "Welcome User : " + " " + profilename; 
+        if(profilename != null){
+          document.getElementById("user_header").innerHTML = "Welcome User : " + " " + profilename; 
+        }
       }
     } else {
       // No user is signed in.
