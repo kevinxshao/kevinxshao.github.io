@@ -8,9 +8,8 @@ function createAccount(){
         // Signed in 
         var user = userCredential.user;
         // ...
-        update_profile();  
         document.getElementById("id01").style.display="none"; 
-
+        update_profile();  
         send_verification();
       })
       .catch((error) => {
@@ -41,7 +40,7 @@ function update_profile(){
   user.updateProfile({
     displayName: document.getElementById("displayname_create").value, 
   }).then(function() {
-    // Update successful.
+    document.getElementById("user_header").innerHTML = "Welcome User : " + email_id + " " + profilename; 
   }).catch(function(error) {
     window.alert("Error : " + error);
   });
