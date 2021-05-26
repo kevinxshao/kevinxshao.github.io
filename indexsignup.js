@@ -28,7 +28,7 @@ function send_verification(){
 
   user.sendEmailVerification().then(function() {
     // Email sent.
-    window.alert("Email Verification Sent");
+    //window.alert("Email Verification Sent");
   }).catch(function(error) {
     // An error happened.
     window.alert("Error : " + error);
