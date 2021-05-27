@@ -68,6 +68,9 @@ span.psw {
   .signupbtn {
      width: 100%;
   }
+  .cancelbtn {
+    width: 100%;
+ }
   
 }
 
@@ -116,6 +119,17 @@ span.psw {
   }
   #verify2{
     font-size: 12px;
+  }
+  #slideshowpic1{
+    height:275px !important;
+  }
+  
+  #slideshowpic2{
+    height:275px !important;
+  }
+  
+  #slideshowpic3{
+    height:275px !important;
   }
 }
 
@@ -262,13 +276,6 @@ h3{
 @keyframes animatezoom {
   from {transform: scale(0)} 
   to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn {
-     width: 100%;
-  }
 }
 
 /* Slideshow */
