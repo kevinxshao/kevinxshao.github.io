@@ -44,14 +44,14 @@
                             <label for="psw"><b><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:passwordInputTitle"/></b></label>
                             <input type="password" placeholder="Enter Password" name="psw" required="required" id="password_field"/>
                                     
-                            <button class="glow2" onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
+                            <button id="logintext"class="glow2" onclick="login()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:loginButtonName"/></button>
                             <label>
                                 <input type="checkbox" checked="checked" name="remember"/><xsl:text> </xsl:text><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:rememberMeButtonName"/>
                             </label>
                         </div>
 
                         <div class="container" style="background-color:#f1f1f1">
-                            <button type="button" class="signupbtn" onclick="document.getElementById('id01').style.display='block'"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
+                            <button id="signuptext" type="button" class="signupbtn" onclick="document.getElementById('id01').style.display='block'"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:cancelButtonName"/></button>
                             <span class="psw"><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
                         </div>
 
