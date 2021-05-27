@@ -7,6 +7,10 @@ function showPage() {
 }
 if (navigator.appVersion.indexOf("Chrome/") != -1 && window.innerWidth < 700) {
     var x = document.getElementsByClassName("glow");
+    for(var i = 0; i < x.length; i++){
+        document.getElementById(winnerClassElements.item(i)).className = "glownone";
+    }
+    
     window.alert("yes");
     
 }

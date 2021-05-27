@@ -149,7 +149,12 @@ span.psw {
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
 }
-
+.glownone {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: none;
+}
 
 @keyframes glow {
   from {
