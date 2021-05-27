@@ -7,5 +7,5 @@ function showPage() {
 }
 if (navigator.appVersion.indexOf("Chrome/") != -1) {
     var x = document.getElementsByClassName("glow");
-    x.style.display="none";
+    window.alert("yes");
 }
