@@ -443,6 +443,7 @@ img {vertical-align: middle;}
     font-size: 30px;
     color: #fff;
     text-align: center;
+    animation-name: none;
   }
 }
 
@@ -453,5 +454,6 @@ img {vertical-align: middle;}
     font-size: 30px;
     color: #fff;
     text-align: center;
+    animation-name: none;
   }
 }
