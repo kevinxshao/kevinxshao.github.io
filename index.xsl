@@ -115,11 +115,11 @@
                                 <label for="confirmpsw"><b>Confirm Password</b></label>
                                 <input type="password" placeholder="Confirm Password" name="confirmpsw" required="required" id="password_confirm"/>    
 
-                                <button class="signupbtn2" onclick="createAccount()">Sign Up</button>
+                                <button id="signuptext2" class="signupbtn2" onclick="createAccount()">Sign Up</button>
                             </div>
 
                             <div class="container" style="background-color:#f1f1f1">
-                                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                                <button id="canceltext" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                             </div>
                         </div>
                     </div>

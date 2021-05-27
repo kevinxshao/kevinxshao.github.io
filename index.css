@@ -44,6 +44,11 @@ button:hover {
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+.signupbtn2none {
+  width: 100%;
+  padding: 10px 18px;
+  background-color: #333;
+}
 
 .imgcontainer {
   text-align: center;
@@ -77,9 +82,11 @@ span.psw {
   .cancelbtn {
     width: 100%;
  }
+ .cancelbtnnone {
+  width: 100%;
+}
   
 }
-
 
 .topnav {
   overflow: hidden;
@@ -237,6 +244,13 @@ h3{
   background-color: #333;
   animation: glow 1s ease-in-out infinite alternate;
 }
+.cancelbtnnone {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #333;
+  animation: none;
+}
+
 .imgcontainer2 {
   text-align: center;
   margin: 24px 0 12px 0;
