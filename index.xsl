@@ -16,7 +16,7 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
                         <a onclick="logout()" style="cursor: pointer;display: none;" id="loggedin1">Logout</a>
                         <div class="dropdown" style="display: none;" id="loggedin2">
                             <button id="dropdownbtn" class="dropbtn">My Account</button>
