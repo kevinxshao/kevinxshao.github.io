@@ -433,10 +433,3 @@ img {vertical-align: middle;}
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
-
-*{
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-}
