@@ -5,6 +5,7 @@ function showPage() {
     document.getElementById("loader").style.display = "none";
     document.getElementById("wholeweb").style.display = "block";
 }
+//This is to remove alot of effects from chrome browser/ microsoftedge in mobile because it is slow there
 if (navigator.appVersion.indexOf("Chrome/") != -1 && window.innerWidth < 700) {
     document.getElementById("logotext").classList.remove('glow');
     document.getElementById("logotext").classList.add('glownone');
@@ -18,5 +19,4 @@ if (navigator.appVersion.indexOf("Chrome/") != -1 && window.innerWidth < 700) {
     document.getElementById("canceltext").classList.add('cancelbtnnone');
     document.getElementById("slideshowui").classList.remove('slideshow-container');
     document.getElementById("slideshowui").classList.add('slideshow-container-none');
-    window.alert("yes");
 }
