@@ -52,7 +52,7 @@
                     </div>
 
                 </div>
-                <div id="user_div" style="display: block;">
+                <div id="user_div" style="display: none;">
                     <h3 id="user_header">Welcome User : </h3>
                     <p id="user_para" style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
                     <p id="verify1" style="text-align: center;">Your account has been sucessfully created. Please verify your email.</p>
