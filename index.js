@@ -23,7 +23,10 @@ firebase.auth().onAuthStateChanged(function(user) {
           document.getElementById("verify2").style.display ="block";
         }
         if(profilename != null){
-          document.getElementById("user_header").innerHTML = "Welcome User : " + " " + profilename; 
+          document.getElementById("user_header").innerHTML = "Welcome User : " + profilename; 
+        }
+        else{
+          document.getElementById("user_header").innerHTML = "Welcome User : "; 
         }
       }
     } else {
