@@ -35,6 +35,18 @@ function send_verification(){
   });
 }
 
+function send_verification2(){
+  var user = firebase.auth().currentUser;
+
+  user.sendEmailVerification().then(function() {
+    // Email sent.
+    window.alert("Email Verification Sent");
+  }).catch(function(error) {
+    // An error happened.
+    window.alert("Error : " + error);
+  });
+}
+
 function update_profile(){
   var user = firebase.auth().currentUser;
   user.updateProfile({
