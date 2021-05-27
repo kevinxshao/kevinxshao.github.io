@@ -434,26 +434,9 @@ img {vertical-align: middle;}
   to{ bottom:0; opacity:1 }
 }
 
-/*Trying to fix slow chrome */
-/* Chrome 29+ */
-@media screen and (-webkit-min-device-pixel-ratio:0)
-  and (min-resolution:.001dpcm) and (max-width: 700px) {
-  
-  .glow {
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    animation-name: none;
-  }
-}
-
-/* Chrome 22-28 */
-@media screen and(-webkit-min-device-pixel-ratio:0) and (max-width: 700px) {
-  
-  .glow {
-    font-size: 30px;
-    color: #fff;
-    text-align: center;
-    animation-name: none;
-  }
+*{
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
