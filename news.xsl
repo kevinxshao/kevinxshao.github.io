@@ -4,31 +4,11 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>FireBase Login</title>
+                <title>InterDark News</title>
                 <link rel="stylesheet" href="news.css"/>
             </head>
             <body>
-                <div id="login_div" class="main-div">
-                    <h3>Firebase Web login Example</h3>
-                    <input type="email" placeholder="Email..." id="email_field"/>
-                    <input type="password" placeholder="Password..." id="password_field"/>
-
-                    <button onclick="login()">Login to Account</button>
-                </div>
-
-                <div id="user_div" class="loggedin-div">
-                    <h3>Welcome User</h3>
-                    <p>Welcome to Firebase web login Example. You're currently logged in.</p>
-                    <button onclick="logout()">Logoout</button>
-                </div>
-                <!-- The core Firebase JS SDK is always required and must be listed first -->
-                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-
-                <!-- TODO: Add SDKs for Firebase products that you want to use
-                    https://firebase.google.com/docs/web/setup#available-libraries -->
-                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
-                <script src="firebaselogin.js"> </script>      
-                <script src="news.js"> </script>            
+              <p>Work in Progress... Please check again later</p>
             </body>
         </html>
     </xsl:template>

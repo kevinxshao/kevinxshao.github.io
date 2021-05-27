@@ -9,7 +9,6 @@
                 <title><xsl:value-of select="tns:WebPage/tns:headPage/tns:titleText"/></title>
                 <link rel="shortcut icon" href="Pictures/interdarklogo.ico" />
                 <link rel="stylesheet" href="index.css"/>
-
                 <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'/>
                
             </head>
