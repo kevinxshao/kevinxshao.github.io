@@ -61,7 +61,7 @@
                         <p id="user_para" style="text-align: center;font-size:20px;"> Welcome to InterDark. Please choose your destination below.</p>
                         <p id="verify1" style="text-align: center;">Your account has been sucessfully created. Please verify your email.</p>
                         <p id="verify2" style="text-align: center;">Confirmation email has been sent. Click <a onclick="send_verification2()" style="cursor: pointer; text-decoration: underline;font-weight: bold;">here</a> to resend verification.</p>
-                        <div class="slideshow-container">
+                        <div id="slideshowui" class="slideshow-container">
                             <div class="mySlides fade">
                             <div class="numbertext">1 / 3</div>
                             <img src="Pictures/courses.png" style="width:100%" id="slideshowpic1"/>
