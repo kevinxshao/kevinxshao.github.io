@@ -52,7 +52,7 @@
 
                         <div class="container" style="background-color:#f1f1f1">
                             <button id="signuptext" type="button" class="signupbtn" onclick="document.getElementById('id01').style.display='block'"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:signupButtonName"/></button>
-                            <span class="psw"><a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
+                            <span class="psw"><a href="ForgotPasswordPage/forgotpassword.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetText"/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loginInterface/tns:forgetPasswordText"/></a></span>
                         </div>
 
                     </div>
