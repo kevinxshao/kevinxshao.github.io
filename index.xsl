@@ -14,7 +14,7 @@
             </head>
             <body onload="loadTime()">
                 <div id="loader"></div>
-                <div id="wholeweb" style="display:block;">
+                <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
                         <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
                         <a onclick="logout()" style="cursor: pointer;display: none;" id="loggedin1"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinSecondMenuItem"/></a>
@@ -31,7 +31,7 @@
                         <a href="news.xml" id="loggedout2" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
                         <a class="active" href="#login" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                     </div>
-                    <div id="login_div" style="display: block;">
+                    <div id="login_div" style="display: none;">
 
                         <div class="imgcontainer">
                             <img src="Pictures/user_login.png" alt="Avatar" class="avatar"/> 
