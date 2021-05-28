@@ -14,6 +14,16 @@
             <tns:thirdMenuItem>Contact</tns:thirdMenuItem>
             <tns:fourthMenuItem>About</tns:fourthMenuItem>
             <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+            <tns:signedinFirstMenuItem>
+            	<tns:FirstMenuItemText>My Account</tns:FirstMenuItemText>
+            	<tns:dropMenuItems>
+            		<tns:firstDropMenuItem>Home</tns:firstDropMenuItem>
+            		<tns:secondDropMenuItem>Shop</tns:secondDropMenuItem>
+            		<tns:thirdDropMenuItem>Stats</tns:thirdDropMenuItem>
+            	</tns:dropMenuItems>
+            </tns:signedinFirstMenuItem>
+            <tns:signedinSecondMenuItem>Logout</tns:signedinSecondMenuItem>
+            
         </tns:topMenuBar>
 
         <tns:loginInterface>
@@ -21,10 +31,37 @@
             <tns:passwordInputTitle>Password</tns:passwordInputTitle>
             <tns:loginButtonName>Login</tns:loginButtonName>
             <tns:rememberMeButtonName>Remember me</tns:rememberMeButtonName>
-            <tns:cancelButtonName>Sign Up</tns:cancelButtonName>
+            <tns:signupButtonName>Sign Up</tns:signupButtonName>
             <tns:forgetText>Forgot </tns:forgetText>
             <tns:forgetPasswordText>password?</tns:forgetPasswordText>
         </tns:loginInterface>
         
+        <tns:loggedinInterface>
+        	<tns:userHeadingText>Welcome User : </tns:userHeadingText>
+        	<tns:userParagraphText>Welcome to InterDark. Please choose your destination below.</tns:userParagraphText>
+        	<tns:verifyText1>Your account has been successfully created. Please verify your email.</tns:verifyText1>
+        	<tns:verifyText2p1>Confirmation email has been sent. Click </tns:verifyText2p1>
+        	<tns:verifyText2p2>here</tns:verifyText2p2>
+        	<tns:verifyText2p3> to resend verification.</tns:verifyText2p3>
+        	<tns:slideshowInterface>
+        		<tns:slide1Page>1 / 3</tns:slide1Page>
+        		<tns:slide1Text>Courses</tns:slide1Text>
+        		<tns:slide2Page>2 / 3</tns:slide2Page>
+        		<tns:slide2Text>Games</tns:slide2Text>
+        		<tns:slide3Page>3 / 3</tns:slide3Page>
+        		<tns:slide3Text>Birthday</tns:slide3Text>
+        	</tns:slideshowInterface>
+        </tns:loggedinInterface>
+        
+        <tns:signupInterface>
+        	<tns:signupHeaderText>Sign Up</tns:signupHeaderText>
+        	<tns:signupParagraphText>Please fill the form below to create an account.</tns:signupParagraphText>
+        	<tns:nameInputTitle>Name</tns:nameInputTitle>
+        	<tns:emailInputTitle>Email</tns:emailInputTitle>
+        	<tns:passwordInputTitle>Password</tns:passwordInputTitle>
+        	<tns:confirmPasswordInputTitle>Confirm Password</tns:confirmPasswordInputTitle>
+        	<tns:signupButtonText>Sign Up</tns:signupButtonText>
+        	<tns:cancelButtonText>Cancel</tns:cancelButtonText>
+        </tns:signupInterface>
     </tns:bodyPage>
 </tns:WebPage>

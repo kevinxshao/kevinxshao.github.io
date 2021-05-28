@@ -22,19 +22,74 @@
 		  							<xs:element name="thirdMenuItem" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="fourthMenuItem" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="logoMenuItem" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="signedinFirstMenuItem" maxOccurs="1">
+		  								<xs:complexType>
+		  									<xs:sequence>
+		  										<xs:element name="FirstMenuItemText" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="dropMenuItems" maxOccurs="1">
+		  											<xs:complexType>
+		  												<xs:sequence>
+		  													<xs:element name="firstDropMenuItem" type="xs:string" maxOccurs="1"/>
+		  													<xs:element name="secondDropMenuItem" type="xs:string" maxOccurs="1"/>
+		  													<xs:element name="thirdDropMenuItem" type="xs:string" maxOccurs="1"/>
+		  												</xs:sequence>
+		  											</xs:complexType>
+		  										</xs:element>
+		  									</xs:sequence>
+		  								</xs:complexType>
+		  							</xs:element>
+		  							<xs:element name="signedinSecondMenuItem" type="xs:string" maxOccurs="1"/>
 		  						</xs:sequence>
 		  					</xs:complexType>
 		  				</xs:element>
-		  				<xs:element name="loginInterface">
+		  				<xs:element name="loginInterface" maxOccurs="1">
 		  					<xs:complexType>
 		  						<xs:sequence>
 		  							<xs:element name="usernameInputTitle" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="passwordInputTitle" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="loginButtonName" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="rememberMeButtonName" type="xs:string" maxOccurs="1"/>
-		  							<xs:element name="cancelButtonName" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="signupButtonName" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="forgetText" type="xs:string" maxOccurs="1"/>
 		  							<xs:element name="forgetPasswordText" type="xs:string" maxOccurs="1"/>
+		  						</xs:sequence>
+		  					</xs:complexType>
+		  				</xs:element>
+		  				<xs:element name="loggedinInterface" maxOccurs="1">
+		  					<xs:complexType>
+		  						<xs:sequence>
+		  							<xs:element name="userHeadingText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="userParagraphText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="verifyText1" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="verifyText2p1" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="verifyText2p2" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="verifyText2p3" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="slideshowInterface" maxOccurs="1">
+		  								<xs:complexType>
+		  									<xs:sequence>
+		  										<xs:element name="slide1Page" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="slide1Text" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="slide2Page" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="slide2Text" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="slide3Page" type="xs:string" maxOccurs="1"/>
+		  										<xs:element name="slide3Text" type="xs:string" maxOccurs="1"/>
+		  									</xs:sequence>
+		  								</xs:complexType>
+		  							</xs:element>
+		  						</xs:sequence>
+		  					</xs:complexType>
+		  				</xs:element>
+		  				<xs:element name="signupInterface" maxOccurs="1">
+		  					<xs:complexType>
+		  						<xs:sequence>
+		  							<xs:element name="signupHeaderText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="signupParagraphText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="nameInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="emailInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="passwordInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="confirmPasswordInputTitle" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="signupButtonText" type="xs:string" maxOccurs="1"/>
+		  							<xs:element name="cancelButtonText" type="xs:string" maxOccurs="1"/>
 		  						</xs:sequence>
 		  					</xs:complexType>
 		  				</xs:element>
