@@ -17,7 +17,7 @@
                         <a href="#about" id="loggedout4" style="display: block;">About</a>
                         <a href="#contact" id="loggedout3" style="display: block;">Contact</a>
                         <a href="news.xml" id="loggedout2" style="display: block;">News</a>
-                        <a class="active" href="#login" id="loggedout1" style="display: block;">Login</a>
+                        <a href="../index.xml" id="loggedout1" style="display: block;">Login</a>
                     </div>        
                 </div>
                 <div id="passwordresetform" style="display:none;">
@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="container">
-                        <button class ="glow2"  type="button">Submit</button>   
+                        <button id="submitbutton"class ="glow2"  type="button">Submit</button>   
                     </div>
                 </div>
 
