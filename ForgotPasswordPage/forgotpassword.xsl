@@ -28,15 +28,21 @@
                     </div>
 
                     <div class="container" style="background-color:white">
-                        <input type="text" placeholder="Enter Email" name="mail" required="required"/>
+                        <input type="text" placeholder="Enter Email" name="mail" required="required" id="email_field"/>
                     </div>
 
                     <div class="container">
-                        <button id="submitbutton" class ="glow2"  type="button">Submit</button>   
+                        <button id="submitbutton" class ="glow2"  type="button" onclick="forgotPassword()">Submit</button>   
                     </div>
                 </div>
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
-                <script src="forgotpasswordload.js"> </script>  
+                <!-- TODO: Add SDKs for Firebase products that you want to use
+                    https://firebase.google.com/docs/web/setup#available-libraries -->
+                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+                <script src="forgotpassword.js"></script>  
+                <script src="forgotpasswordload.js"></script>  
             </body>
         </html>
     </xsl:template>
