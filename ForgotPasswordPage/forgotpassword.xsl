@@ -41,6 +41,7 @@
                 <!-- TODO: Add SDKs for Firebase products that you want to use
                     https://firebase.google.com/docs/web/setup#available-libraries -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+                <script src="../firebaselogin.js"></script>  
                 <script src="forgotpassword.js"></script>  
                 <script src="forgotpasswordload.js"></script>  
             </body>
