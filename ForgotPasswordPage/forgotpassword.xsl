@@ -5,6 +5,7 @@
         <html>
             <head>
                 <title>InterDark Reset your password</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="stylesheet" href="forgotpassword.css"/>
                 <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'/>
             </head>
