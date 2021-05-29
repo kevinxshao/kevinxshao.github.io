@@ -8,8 +8,33 @@
                 <link rel="stylesheet" href="forgotpassword.css"/>
                 <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'/>
             </head>
-            <body>
-              <p>Work in Progress... Please check again later</p>
+            <body onload="loadTime()">
+                <div id="loader"></div>
+                <div id="wholeweb" style="display:none;">
+                    <div class="topnav">   
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
+                        <a href="#about" id="loggedout4" style="display: block;">About</a>
+                        <a href="#contact" id="loggedout3" style="display: block;">Contact</a>
+                        <a href="news.xml" id="loggedout2" style="display: block;">News</a>
+                        <a class="active" href="#login" id="loggedout1" style="display: block;">Login</a>
+                    </div>        
+                </div>
+                <div id="passwordresetform" style="display:none;">
+                    <div class="container">
+                        <h2 id="forgotpasswordheader">Forgot your password?</h2>
+                        <p id="forgotpasswordpara">Fill out your email below</p>
+                    </div>
+
+                    <div class="container" style="background-color:white">
+                        <input type="text" placeholder="Enter Email" name="mail" required="required"/>
+                    </div>
+
+                    <div class="container">
+                        <button class ="glow2"  type="button">Submit</button>   
+                    </div>
+                </div>
+
+                <script src="forgotpasswordload.js"> </script>  
             </body>
         </html>
     </xsl:template>
