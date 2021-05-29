@@ -200,6 +200,7 @@ h3{
   overflow: hidden;
 }
 
+
 .dropdown .dropbtn {
   font-size: 30px;
   border: none;
@@ -209,6 +210,14 @@ h3{
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+.dropbtn{
+  background-color: skyblue;
+}
+.dropbtn:hover{
+  background-color: ghostwhite;
+  color: black;
+  opacity: 1;
 }
 
 .dropdown-content {
@@ -230,7 +239,7 @@ h3{
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: ghostwhite;
 }
 
 .dropdown:hover .dropdown-content {
