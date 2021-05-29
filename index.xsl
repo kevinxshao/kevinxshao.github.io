@@ -133,10 +133,10 @@
                     https://firebase.google.com/docs/web/setup#available-libraries -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
                 <script src="firebaselogin.js"> </script>      
-                <script src="index.js"> </script>        
+                <script src="index.js"> </script> 
+                <script src="indexsignup.js"> </script>         
                 <script src="indexmodal.js"> </script>  
                 <script src="indexslideshow.js"> </script>  
-                <script src="indexsignup.js"> </script>  
                 <script src="indexload.js"> </script>  
             </body>
         </html>

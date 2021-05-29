@@ -3,14 +3,16 @@ function createAccount(){
     var userPass = document.getElementById("password_create").value; 
     var userConfirmPass = document.getElementById("password_confirm").value; 
     if(userPass == userConfirmPass){
-      firebase.auth().createUserWithEmailAndPassword(userEmail, userPass).then((userCredential) => {
+      firebase.auth().createUserWithEmailAndPassword(userEmail, userPass)
+      .then((userCredential) => {
         // Signed in 
         var user = userCredential.user;
         // ...
         update_profile();  
         document.getElementById("id01").style.display="none"; 
         send_verification();
-      }).catch((error) => {
+      })
+      .catch((error) => {
         var errorCode = error.code;
         var errorMessage = error.message;
         // ..
