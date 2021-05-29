@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="container">
-                        <button id="submitbutton"class ="glow2"  type="button">Submit</button>   
+                        <button id="submitbutton" class ="glow2"  type="button">Submit</button>   
                     </div>
                 </div>
 
