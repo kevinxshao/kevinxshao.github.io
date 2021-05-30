@@ -4,7 +4,7 @@
      <xsl:template match="/">
         <html>
             <head>
-                <title>InterDark Reset your password</title>
+                <title><xsl:value-of select="tns:WebPage/tns:headPage/tns:titleText"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                  <link rel="shortcut icon" href="../Pictures/interdarklogo.ico" />
                 <link rel="stylesheet" href="forgotpassword.css"/>

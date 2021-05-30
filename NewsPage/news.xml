@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type = "text/xsl" href = "news.xsl"?>
+<?xml-stylesheet href="news.css"?>
 
-<WebPage>
-    <headPage>
-        <titleText>Testing</titleText>
-    </headPage>
-
-</WebPage>
+<tns:WebPage xmlns:tns="https://interdark.com/NewsPage/news.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://interdark.com/NewsPage/news.xml news.xsd">
+	<tns:headPage>
+		<tns:titleText>InterDark | News</tns:titleText>
+	</tns:headPage>
+	
+	<tns:bodyPage>
+		<tns:topMenuBar>
+			<tns:firstMenuItem>Login</tns:firstMenuItem>
+	        <tns:secondMenuItem>News</tns:secondMenuItem>
+	        <tns:thirdMenuItem>Contact</tns:thirdMenuItem>
+	        <tns:fourthMenuItem>About</tns:fourthMenuItem>
+	        <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+		</tns:topMenuBar>
+		<tns:newsInterface>
+			<tns:mainNews>
+				<tns:newsHeader>InterDark News</tns:newsHeader>
+				<tns:newsSubHeader>Breaking News</tns:newsSubHeader>
+				<tns:newsHeaderDescription>InterDark Formation, May 29, 2021</tns:newsHeaderDescription>
+				<tns:newsParagraph1>I am currently in the process of creating the InterDark website. So far we have completed the login feature, account creation feature, and reset password feature.</tns:newsParagraph1>
+				<tns:newsParagraph2>The next step to this website will be finishing the news blog, contact page and the meet the team page.</tns:newsParagraph2>
+			</tns:mainNews>
+			<tns:aboutmeInterface>
+				<tns:aboutmeHeader>About Me</tns:aboutmeHeader>
+				<tns:aboutmeParagraph>Hi my name is Kevin and I am a Computer Engineer. I have a focus in Software Engineering but I also work on other fields such as Embedded Systems, Web Development and Android App Development. In my spare time I like to watch tv shows and play games. I am currently watching The Flash and Bad Batch. The game I currently play is osu.</tns:aboutmeParagraph>
+			</tns:aboutmeInterface>
+			<tns:myProjectsInterface>
+                <tns:myProjectsHeader>My Projects</tns:myProjectsHeader>
+				<tns:myProjectsImage1text>Embedded Systems</tns:myProjectsImage1text>
+				<tns:myProjectsImage2text>App Development</tns:myProjectsImage2text>
+				<tns:myProjectsImage3text>Programming</tns:myProjectsImage3text>
+			</tns:myProjectsInterface>
+			<tns:followmeInterface>
+                <tns:followmeHeading>Follow Me</tns:followmeHeading>
+				<tns:followmeparagraphtextp1>GitHub: </tns:followmeparagraphtextp1>
+				<tns:followmeparagraphtextp2>https://github.com/kevinxshao</tns:followmeparagraphtextp2>
+			</tns:followmeInterface>
+		</tns:newsInterface>
+        <tns:pageInterface>
+            <tns:pagenumbertext1>Page 1 / 1 </tns:pagenumbertext1>
+            <tns:pagenumbertext2>Next Page</tns:pagenumbertext2>
+        </tns:pageInterface>
+	</tns:bodyPage>
+	
+</tns:WebPage>
