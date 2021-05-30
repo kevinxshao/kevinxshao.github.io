@@ -4,7 +4,7 @@ function createAccount(){
     var userConfirmPass = document.getElementById("password_confirm").value; 
     if(userPass == userConfirmPass){
       firebase.auth().createUserWithEmailAndPassword(userEmail, userPass)
-      .then((userCredential) => {
+      .then(function (userCredential) {
         // Signed in 
         var user = userCredential.user;
         // ...
@@ -12,7 +12,7 @@ function createAccount(){
         document.getElementById("id01").style.display="none"; 
         send_verification();
       })
-      .catch((error) => {
+      .catch(function (error) {
         var errorCode = error.code;
         var errorMessage = error.message;
         // ..
