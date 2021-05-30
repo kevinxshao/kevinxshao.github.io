@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="container">
                                     <img id="project3" src="../Pictures/programming.png" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/>
-                                    <div class="overlay">Programming Projects</div>
+                                    <div class="overlay">Programming</div>
                                 </div>
                             </div>
                             <div class="card">
