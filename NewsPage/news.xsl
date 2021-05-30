@@ -43,9 +43,19 @@
                             </div>
                             <div class="card">
                             <h3>My Projects</h3>
-                            <div class="fakeimg">Image</div><br/>
-                            <div class="fakeimg">Image</div><br/>
-                            <div class="fakeimg">Image</div>
+                                <div class="container">
+                                    <img id="project1" src="../Pictures/embeddedsystems.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/>
+                                    <div class="overlay">Embedded Systems</div>
+                                </div>
+                                <br/>
+                                <div class="container">
+                                    <img id="project2" src="../Pictures/appdevelopment.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/><br/>
+                                    <div class="overlay">App Development</div>
+                                </div>
+                                <div class="container">
+                                    <img id="project3" src="../Pictures/programming.png" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/>
+                                    <div class="overlay">Programming Projects</div>
+                                </div>
                             </div>
                             <div class="card">
                             <h3>Follow Me</h3>
@@ -55,7 +65,7 @@
                     </div>
 
                     <div class="footer">
-                        <h2>Page 1 / 1 <a href="" style="cursor: pointer;">Next Page</a></h2>
+                        <h2>Page 1 / 1 <a href="news.xml" style="cursor: pointer;">Next Page</a></h2>
                     </div>        
                     </div>
                 </div>
