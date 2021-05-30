@@ -35,6 +35,10 @@ body {
     #dropdownbtn{
       font-size: 12px;
     }
+    #heropic{
+      width: 250px !important;
+    }
+    
   }
 
   /*Loading Screen */
@@ -164,4 +168,8 @@ h3{
 
 h5{
   color:white;
+}
+
+#heropic{
+  width: 500px;
 }

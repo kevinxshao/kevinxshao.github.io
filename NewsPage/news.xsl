@@ -30,7 +30,7 @@
                             <div class="card">
                             <h2>Breaking News</h2>
                             <h5>InterDark Formation, May 29, 2021</h5>
-                            <img src="../Pictures/hero.png" style="width:500px"/>
+                            <img id="heropic" src="../Pictures/hero.png"/>
                             <p style="color:white;">I am currently in the process of creating the InterDark website. So far we have completed the login feature, account creation feature, and reset password feature.</p>
                             <p style="color:white;">The next step to this website will be finishing the news blog, contact page and the meet the team page.</p>
                             </div>
