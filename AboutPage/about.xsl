@@ -24,7 +24,7 @@
                         <div class="row">
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%; height:600px"/>
+                                <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
                                     <h2>Kevin Shao</h2>
                                     <p class="title">CEO &amp; Founder</p>
