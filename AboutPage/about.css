@@ -32,6 +32,13 @@ body {font-family: 'Comic Neue'; margin: 0;}
     #dropdownbtn{
       font-size: 12px;
     }
+    #teamhead{
+      font-size: 25px !important;
+    }
+  
+    #teampara{
+      font-size: 16px !important;
+    }
   }
   
   /*Loading Screen */
@@ -176,3 +183,5 @@ body {font-family: 'Comic Neue'; margin: 0;}
     text-align: center;
     background: #333;
   }
+
+ 

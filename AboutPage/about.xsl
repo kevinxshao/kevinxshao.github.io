@@ -23,8 +23,8 @@
                   
                     <div id="meetteam"> 
                         <div class="header">
-                            <h2 style="font-style: italic;font-size: 40px;color:white;">Meet The Team</h2>
-                            <p style="font-size: 25px;color:white;">Below is all the members of the team along with a small description of each member.</p>
+                            <h2 id="teamhead" style="font-style: italic;font-size: 40px;color:white;">Meet The Team</h2>
+                            <p id="teampara" style="font-size: 25px;color:white;">Below is all the members of the team along with a small description of each member.</p>
                         </div>
 
                     <br/>
