@@ -19,7 +19,22 @@
                         <a href="#contact" id="loggedout3" style="display: block;">Contact</a>
                         <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;">News</a>
                         <a href="../index.xml" id="loggedout1" style="display: block;">Login</a>
-                    </div>        
+                    </div>       
+                    <div id="meetteam"> 
+                        <div class="row">
+                            <div class="column">
+                                <div class="card">
+                                <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%; height:600px"/>
+                                <div class="container">
+                                    <h2>Kevin Shao</h2>
+                                    <p class="title">CEO &amp; Founder</p>
+                                    <p>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and devleoping Android Apps</p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <script src="aboutload.js"></script>  
             </body>
