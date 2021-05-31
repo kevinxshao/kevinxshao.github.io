@@ -28,7 +28,7 @@
                                 <div class="container">
                                     <h2>Kevin Shao</h2>
                                     <p class="title">CEO &amp; Founder</p>
-                                    <p>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and devleoping Android Apps</p>
+                                    <p>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and developing Android Apps</p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
                                 </div>
                                 </div>
