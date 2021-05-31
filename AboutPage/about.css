@@ -116,6 +116,7 @@ body {font-family: 'Comic Neue'; margin: 0;}
   #meetteam{
     box-sizing: border-box;
     padding: 100px;
+    background-color: lightblue;
   }
   #meetteam *,#meetteam *:before, #meetteam *:after{
     box-sizing: inherit;
@@ -135,7 +136,8 @@ body {font-family: 'Comic Neue'; margin: 0;}
   }
   
   .card {
-    box-shadow: 2px 4px 8px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px 5px rgba(255, 255, 255, 0.8);
+    padding: 20px;
   }
   
   .container {
@@ -166,4 +168,11 @@ body {font-family: 'Comic Neue'; margin: 0;}
   
   .button:hover {
     background-color: #555;
+  }
+
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: #333;
   }

@@ -20,7 +20,14 @@
                         <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;">News</a>
                         <a href="../index.xml" id="loggedout1" style="display: block;">Login</a>
                     </div>       
+                  
                     <div id="meetteam"> 
+                        <div class="header">
+                            <h2 style="font-style: italic;font-size: 40px;color:white;">Meet The Team</h2>
+                            <p style="font-size: 25px;color:white;">Below is all the members of the team along with a small description of each member.</p>
+                        </div>
+
+                    <br/>
                         <div class="row">
                             <div class="column">
                                 <div class="card">
@@ -29,6 +36,39 @@
                                     <h2>Kevin Shao</h2>
                                     <p class="title">CEO &amp; Founder</p>
                                     <p>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and developing Android Apps</p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                <img src="../Pictures/sportman.png" alt="Profile Picture" style="width:100%;"/>
+                                <div class="container">
+                                    <h2>Me</h2>
+                                    <p class="title">Computer Engineer</p>
+                                    <p>I enjoy Web Develpment. I have worked with HTML, CSS, JavaScript, XML, XSLT, XSD, and Xpath. Some hobbies I enjoy is I like to workout mainly doing calisthenics.</p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                <img src="../Pictures/stickfood.png" alt="Profile Picture" style="width:100%;"/>
+                                <div class="container">
+                                    <h2>Myself</h2>
+                                    <p class="title">Programmer</p>
+                                    <p>I enjoy Android App Develpment.</p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="card">
+                                <img src="../Pictures/bluestick.png" alt="Profile Picture" style="width:100%;"/>
+                                <div class="container">
+                                    <h2>I</h2>
+                                    <p class="title">Embedded Systems</p>
+                                    <p>I enjoy working with Arduino. I used Arduino to develop a drop system for a concert. It was used to drop tickets from the ceiling.</p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
                                 </div>
                                 </div>
