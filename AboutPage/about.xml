@@ -2,6 +2,51 @@
 <?xml-stylesheet type = "text/xsl" href = "about.xsl"?>
 <?xml-stylesheet href="about.css"?>
 
-<WebPage>
-
-</WebPage>
+<tns:WebPage xmlns:tns="https://interdark.com/AboutPage/about.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://interdark.com/AboutPage/about.xml about.xsd">
+	<tns:headPage>
+		<tns:titleText>InterDark | About</tns:titleText>
+	</tns:headPage>
+	
+	<tns:bodyPage>
+		<tns:topMenuBar>
+			<tns:firstMenuItem>Login</tns:firstMenuItem>
+	        <tns:secondMenuItem>News</tns:secondMenuItem>
+	        <tns:thirdMenuItem>Contact</tns:thirdMenuItem>
+	        <tns:fourthMenuItem>About</tns:fourthMenuItem>
+	        <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+		</tns:topMenuBar>
+		
+		<tns:meettheteamInterface>
+			<tns:meettheteamheader>Meet The Team</tns:meettheteamheader>
+			<tns:meettheteamParagraph>Below is all the members of the team along with a small description of each member.</tns:meettheteamParagraph>
+			<tns:member1>
+				<tns:member1Name>Kevin Shao</tns:member1Name>	
+				<tns:member1Job>CEO &amp; Founder</tns:member1Job>
+				<tns:member1Paragraph1>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and developing Android Apps</tns:member1Paragraph1>
+				<tns:member1Contact>Contact</tns:member1Contact>
+			</tns:member1>
+			
+			<tns:member2>
+				<tns:member2Name>Me</tns:member2Name>	
+				<tns:member2Job>Computer Engineer</tns:member2Job>
+				<tns:member2Paragraph2>I enjoy Web Develpment. I have worked with HTML, CSS, JavaScript, XML, XSLT, XSD, and Xpath. Some hobbies I enjoy is I like to workout mainly doing calisthenics.</tns:member2Paragraph2>
+				<tns:member2Contact>Contact</tns:member2Contact>
+			</tns:member2>
+			
+			<tns:member3>
+				<tns:member3Name>Myself</tns:member3Name>	
+				<tns:member3Job>Programmer</tns:member3Job>
+				<tns:member3Paragraph3>I enjoy Android App Develpment.</tns:member3Paragraph3>
+				<tns:member3Contact>Contact</tns:member3Contact>
+			</tns:member3>			
+			
+			<tns:member4>
+				<tns:member4Name>I</tns:member4Name>	
+				<tns:member4Job>Embedded Systems</tns:member4Job>
+				<tns:member4Paragraph4>I enjoy working with Arduino. I used Arduino to develop a drop system for a concert. It was used to drop tickets from the ceiling.</tns:member4Paragraph4>
+				<tns:member4Contact>Contact</tns:member4Contact>
+			</tns:member4>				
+		</tns:meettheteamInterface>
+	</tns:bodyPage>
+	
+</tns:WebPage>

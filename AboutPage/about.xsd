@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://interdark.com/AboutPage/about.xml" xmlns:tns="https://interdark.com/AboutPage/about.xml" elementFormDefault="qualified">
+ 	
+ 	<xs:element name="WebPage">
+ 		<xs:complexType>
+ 			<xs:sequence>
+ 				<xs:element name="headPage" maxOccurs="1">
+ 					<xs:complexType>
+ 						<xs:sequence>
+ 							<xs:element name="titleText" type="xs:string" maxOccurs="1"/>
+ 						</xs:sequence>
+ 					</xs:complexType>
+ 				</xs:element>
+ 				<xs:element name="bodyPage" maxOccurs="1">
+ 					<xs:complexType>
+ 						<xs:sequence>
+ 							<xs:element name="topMenuBar" maxOccurs="1">
+ 								<xs:complexType>
+ 									<xs:sequence>
+ 										<xs:element name="firstMenuItem" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="secondMenuItem" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="thirdMenuItem" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="fourthMenuItem" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="logoMenuItem" type="xs:string" maxOccurs="1"/>
+ 									</xs:sequence>
+ 								</xs:complexType>
+ 							</xs:element>
+ 							<xs:element name="meettheteamInterface" maxOccurs="1">
+ 								<xs:complexType>
+ 									<xs:sequence>
+ 										<xs:element name="meettheteamheader" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="meettheteamParagraph" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="member1" maxOccurs="1">
+ 											<xs:complexType>
+ 												<xs:sequence>
+ 													<xs:element name="member1Name" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member1Job" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member1Paragraph1" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member1Contact" type="xs:string" maxOccurs="1"/>
+ 												</xs:sequence>
+ 											</xs:complexType>
+ 										</xs:element>
+ 										<xs:element name="member2" maxOccurs="1">
+ 											<xs:complexType>
+ 												<xs:sequence>
+ 													<xs:element name="member2Name" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member2Job" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member2Paragraph2" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member2Contact" type="xs:string" maxOccurs="1"/>
+ 												</xs:sequence>
+ 											</xs:complexType>
+ 										</xs:element>
+ 										<xs:element name="member3" maxOccurs="1">
+ 											<xs:complexType>
+ 												<xs:sequence>
+ 													<xs:element name="member3Name" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member3Job" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member3Paragraph3" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member3Contact" type="xs:string" maxOccurs="1"/>
+ 												</xs:sequence>
+ 											</xs:complexType>
+ 										</xs:element>
+ 										<xs:element name="member4" maxOccurs="1">
+ 											<xs:complexType>
+ 												<xs:sequence>
+ 													<xs:element name="member4Name" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member4Job" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member4Paragraph4" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="member4Contact" type="xs:string" maxOccurs="1"/>
+ 												</xs:sequence>
+ 											</xs:complexType>
+ 										</xs:element>
+ 									</xs:sequence>
+ 								</xs:complexType>
+ 							</xs:element>
+ 						</xs:sequence>
+ 					</xs:complexType>
+ 				</xs:element>
+ 			</xs:sequence>
+ 		</xs:complexType>
+ 	
+ 	</xs:element>
+
+
+</xs:schema>

@@ -4,7 +4,7 @@
      <xsl:template match="/">
         <html>
             <head>
-                <title>InterDark | About</title>
+                <title><xsl:value-of select="tns:WebPage/tns:headPage/tns:titleText"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                  <link rel="shortcut icon" href="../Pictures/interdarklogo.ico" />
                 <link rel="stylesheet" href="about.css"/>
@@ -14,17 +14,17 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
-                        <a href="about.xml" class="active" id="loggedout4" style="display: block;">About</a>
-                        <a href="#contact" id="loggedout3" style="display: block;">Contact</a>
-                        <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;">News</a>
-                        <a href="../index.xml" id="loggedout1" style="display: block;">Login</a>
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                        <a href="about.xml" class="active" id="loggedout4" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
+                        <a href="#contact" id="loggedout3" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
+                        <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
+                        <a href="../index.xml" id="loggedout1" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                     </div>       
                   
                     <div id="meetteam"> 
                         <div class="header">
-                            <h2 id="teamhead" style="font-style: italic;font-size: 40px;color:white;">Meet The Team</h2>
-                            <p id="teampara" style="font-size: 25px;color:white;">Below is all the members of the team along with a small description of each member.</p>
+                            <h2 id="teamhead" style="font-style: italic;font-size: 40px;color:white;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:meettheteamheader"/></h2>
+                            <p id="teampara" style="font-size: 25px;color:white;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:meettheteamParagraph"/></p>
                         </div>
 
                     <br/>
@@ -33,10 +33,10 @@
                                 <div class="card">
                                 <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
-                                    <h2>Kevin Shao</h2>
-                                    <p class="title">CEO &amp; Founder</p>
-                                    <p>Hello I'm a Computer Engineer with a focus in Software Development. My hobbies include playing games, watching tv shows and developing Android Apps</p>
-                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Name"/></h2>
+                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Job"/></p>
+                                    <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Paragraph1"/></p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Contact"/></button></p>
                                 </div>
                                 </div>
                             </div>
@@ -44,10 +44,10 @@
                                 <div class="card">
                                 <img src="../Pictures/sportman.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
-                                    <h2>Me</h2>
-                                    <p class="title">Computer Engineer</p>
-                                    <p>I enjoy Web Develpment. I have worked with HTML, CSS, JavaScript, XML, XSLT, XSD, and Xpath. Some hobbies I enjoy is I like to workout mainly doing calisthenics.</p>
-                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Name"/></h2>
+                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Job"/></p>
+                                    <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Paragraph2"/></p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Contact"/></button></p>
                                 </div>
                                 </div>
                             </div>
@@ -55,10 +55,10 @@
                                 <div class="card">
                                 <img src="../Pictures/stickfood.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
-                                    <h2>Myself</h2>
-                                    <p class="title">Programmer</p>
-                                    <p>I enjoy Android App Develpment.</p>
-                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Name"/></h2>
+                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Job"/></p>
+                                    <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Paragraph3"/></p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Contact"/></button></p>
                                 </div>
                                 </div>
                             </div>
@@ -66,10 +66,10 @@
                                 <div class="card">
                                 <img src="../Pictures/bluestick.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
-                                    <h2>I</h2>
-                                    <p class="title">Embedded Systems</p>
-                                    <p>I enjoy working with Arduino. I used Arduino to develop a drop system for a concert. It was used to drop tickets from the ceiling.</p>
-                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button">Contact</button></p>
+                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Name"/></h2>
+                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Job"/></p>
+                                    <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Paragraph4"/></p>
+                                    <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Contact"/></button></p>
                                 </div>
                                 </div>
                             </div>
