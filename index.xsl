@@ -29,7 +29,7 @@
                         <a href="AboutPage/about.xml" id="loggedout4" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
                         <a href="#contact" id="loggedout3" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
                         <a href="NewsPage/news.xml" id="loggedout2" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
-                        <a class="active" href="#login" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
+                        <a class="active" href="index.xml" id="loggedout1" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                     </div>
                     <div id="login_div" style="display: none;">
 
