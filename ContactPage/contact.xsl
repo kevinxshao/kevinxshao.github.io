@@ -14,16 +14,16 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
-                        <a href="../AboutPage/about.xml"  id="loggedout4" style="display: block;">About</a>
-                        <a href="contact.xml" class="active" id="loggedout3" style="display: block;">Contact</a>
-                        <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;">News</a>
-                        <a href="../index.xml" id="loggedout1" style="display: block;">Login</a>
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                        <a href="../AboutPage/about.xml"  id="loggedout4" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
+                        <a href="contact.xml" class="active" id="loggedout3" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:thirdMenuItem"/></a>
+                        <a href="../NewsPage/news.xml" id="loggedout2" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
+                        <a href="../index.xml" id="loggedout1" style="display: block;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem"/></a>
                     </div>  
 
                     <div id="discordlink">
                         <div class="header">
-                            <h2 id="contacthead" style="font-style: italic;">Need to contact us? <br/> Come join our Discord</h2>
+                            <h2 id="contacthead" style="font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:discordlinkInterface/tns:discordlinkHeader"/><br/><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:discordlinkInterface/tns:discordlinkParagraph"/></h2>
                     
                         </div>
                     </div>

@@ -2,6 +2,24 @@
 <?xml-stylesheet type = "text/xsl" href = "contact.xsl"?>
 <?xml-stylesheet href="contact.css"?>
 
-<WebPage>
-
-</WebPage>
+<tns:WebPage xmlns:tns="https://interdark.com/ContactPage/contact.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://interdark.com/ContactPage/contact.xml contact.xsd">
+	<tns:headPage>
+		<tns:titleText>InterDark | About</tns:titleText>
+	</tns:headPage>
+	
+	<tns:bodyPage>
+		<tns:topMenuBar>
+			<tns:firstMenuItem>Login</tns:firstMenuItem>
+	        <tns:secondMenuItem>News</tns:secondMenuItem>
+	        <tns:thirdMenuItem>Contact</tns:thirdMenuItem>
+	        <tns:fourthMenuItem>About</tns:fourthMenuItem>
+	        <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+		</tns:topMenuBar>
+		
+		<tns:discordlinkInterface>
+			<tns:discordlinkHeader>Need to contact us?</tns:discordlinkHeader>
+            <tns:discordlinkParagraph>Come join our Discord</tns:discordlinkParagraph>
+		</tns:discordlinkInterface>
+	</tns:bodyPage>
+	
+</tns:WebPage>
