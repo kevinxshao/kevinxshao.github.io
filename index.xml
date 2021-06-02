@@ -18,8 +18,8 @@
             	<tns:FirstMenuItemText>My Account</tns:FirstMenuItemText>
             	<tns:dropMenuItems>
             		<tns:firstDropMenuItem>Home</tns:firstDropMenuItem>
-            		<tns:secondDropMenuItem>Shop</tns:secondDropMenuItem>
-            		<tns:thirdDropMenuItem>Stats</tns:thirdDropMenuItem>
+            		<tns:secondDropMenuItem>Change Password</tns:secondDropMenuItem>
+            		<tns:thirdDropMenuItem>Change Email</tns:thirdDropMenuItem>
             	</tns:dropMenuItems>
             </tns:signedinFirstMenuItem>
             <tns:signedinSecondMenuItem>Logout</tns:signedinSecondMenuItem>

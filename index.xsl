@@ -19,9 +19,9 @@
                         <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
                         <a onclick="logout()" style="cursor: pointer;display: none;" id="loggedin1"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinSecondMenuItem"/></a>
                         <div class="dropdown" style="display: none;" id="loggedin2">
-                            <button id="dropdownbtn" class="dropbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:FirstMenuItemText"/></button>
+                            <button id="dropdownbtn" class="dropbtn" onclick="location.href='index.xml'"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:FirstMenuItemText"/></button>
                             <div class="dropdown-content">
-                                <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:firstDropMenuItem"/></a>
+                                <a href="index.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:firstDropMenuItem"/></a>
                                 <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:secondDropMenuItem"/></a>
                                 <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:thirdDropMenuItem"/></a>
                             </div>
