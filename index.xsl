@@ -22,7 +22,7 @@
                             <button id="dropdownbtn" class="dropbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:FirstMenuItemText"/></button>
                             <div class="dropdown-content">
                                 <a class="active" href="index.xml" id="firstDropMenuItem" ><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:firstDropMenuItem"/></a>
-                                <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:secondDropMenuItem"/></a>
+                                <a href="ChangePasswordPage/changepassword.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:secondDropMenuItem"/></a>
                                 <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:thirdDropMenuItem"/></a>
                             </div>
                         </div>
