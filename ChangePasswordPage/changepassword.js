@@ -2,7 +2,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
     } else {
-        window.location.href = '../index.xml';
+        //window.location.href = '../index.xml';
     }
   });
 function logout(){
@@ -38,7 +38,7 @@ function reauthenticate(){
 
     user.reauthenticateWithCredential(credential).then(function() {
     // User re-authenticated.
-    document.getElementById("reauthenticateheader").style.display="none";
+    document.getElementById("reauthenticate").style.display="none";
     document.getElementById("passwordchangeform").style.display="block";
     }).catch(function(error) {
     // An error happened.
