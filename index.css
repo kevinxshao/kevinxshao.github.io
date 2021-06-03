@@ -478,3 +478,7 @@ img {vertical-align: middle;}
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
+
+#firstDropMenuItem:hover{
+  color:black;
+}
