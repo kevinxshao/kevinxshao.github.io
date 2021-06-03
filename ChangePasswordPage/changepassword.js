@@ -2,7 +2,7 @@ firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
     } else {
-        window.location.href = '../index.xml';
+        //window.location.href = '../index.xml';
     }
   });
 function logout(){
@@ -29,4 +29,19 @@ function changePassword(){
     else{
         window.alert("Passwords don't match!");  
     }
+}
+function reauthenticate(){
+    var user = firebase.auth().currentUser;
+    var credential = firebase.auth.EmailAuthProvider.credential(document.getElementById("email_field").value, document.getElementById("password_field").value);
+
+    // Prompt the user to re-provide their sign-in credentials
+
+    user.reauthenticateWithCredential(credential).then(function() {
+    // User re-authenticated.
+    document.getElementById("reauthenticateheader").style.display="none";
+    document.getElementById("passwordchangeform").style.display="block";
+    }).catch(function(error) {
+    // An error happened.
+    window.alert(error);
+    });
 }
