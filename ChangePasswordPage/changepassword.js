@@ -23,7 +23,7 @@ function reauthenticate(){
     // User re-authenticated.
     document.getElementById("reauthenticate").style.display="none";
     document.getElementById("passwordchangeform").style.display="block";
-    document.getElementById('button').onclick = function() {
+    document.getElementById('submitbutton').onclick = function() {
         var user = firebase.auth().currentUser;
         var newPassword =  document.getElementById("newpassword_field").value;
         var confirmPassword = document.getElementById("confirmpassword_field").value;
