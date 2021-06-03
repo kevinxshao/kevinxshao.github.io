@@ -25,6 +25,23 @@
                             </div>
                         </div>
                     </div>        
+                    <div id="passwordchangeform" style="display:none;">
+                        <div class="container">
+                            <h2 id="changepasswordheader">Change your password?</h2>
+                            <p id="changepasswordpara">Fill out the form below</p>
+                        </div>
+
+                        <div class="container" style="background-color:white">
+                            <h2>New Password:</h2>
+                            <input type="password" placeholder="Enter new password" name="mail" required="required" id="newpassword_field"/>
+                            <h2>Confirm Password:</h2>
+                            <input type="password" placeholder="Confirm new password" name="mail" required="required" id="confirmpassword_field"/>
+                        </div>
+
+                        <div class="container">
+                            <button id="submitbutton" class ="glow2"  type="button" onclick="changePassword()">Submit</button>   
+                        </div>
+                    </div>
                 </div>
                 <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
