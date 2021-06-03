@@ -19,7 +19,8 @@ function changePassword(){
     if(newPassword==confirmPassword){
         user.updatePassword(newPassword).then(function() {
         // Update successful.
-            window.alert("Password Changed Successful");
+            window.alert("Password Changed Successful Please Log in again");
+            logout();
         }).catch(function(error) {
         // An error happened.
         window.alert(error);
