@@ -12,7 +12,6 @@ function logout(){
         // An error happened.
       });
 }
-
 function reauthenticate(){
     var user = firebase.auth().currentUser;
     var credential = firebase.auth.EmailAuthProvider.credential(document.getElementById("email_field").value, document.getElementById("password_field").value);
@@ -23,7 +22,7 @@ function reauthenticate(){
     // User re-authenticated.
     document.getElementById("reauthenticate").style.display="none";
     document.getElementById("passwordchangeform").style.display="block";
-    document.getElementById('submitbutton').onclick = function() {
+    document.getElementById('button').onclick = function() {
         var user = firebase.auth().currentUser;
         var newPassword =  document.getElementById("newpassword_field").value;
         var confirmPassword = document.getElementById("confirmpassword_field").value;
@@ -40,7 +39,7 @@ function reauthenticate(){
         else{
             window.alert("Passwords don't match!");  
         }
-    }​;​
+     }​
     }).catch(function(error) {
     // An error happened.
     window.alert(error);
