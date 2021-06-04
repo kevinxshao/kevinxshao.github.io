@@ -25,22 +25,6 @@
                             </div>
                         </div>
                     </div>
-                    <div id="reauthenticate" style="display:none;">
-                        <div class="container">
-                            <h2 id="reauthenticateheader">Please re-enter your credentials</h2>
-                        </div>
-
-                        <div class="container" style="background-color:white">
-                            <h2>Email:</h2>
-                            <input type="text" placeholder="Enter Email" name="mail" required="required" id="email_field"/>
-                            <h2>Password:</h2>
-                            <input type="password" placeholder="Enter password" name="mail" required="required" id="password_field"/>
-                        </div>
-
-                        <div class="container">
-                            <button id="firstsubmitbutton" class ="glow2"  type="button" onclick="reauthenticate()">Submit</button>   
-                        </div>
-                    </div>        
                     <div id="passwordchangeform" style="display:none;">
                         <div class="container">
                             <h2 id="changepasswordheader">Change your password?</h2>
@@ -48,9 +32,11 @@
                         </div>
 
                         <div class="container" style="background-color:white">
+                            <h2>Current Password:</h2>
+                            <input type="password" placeholder="Enter current password" name="mail" required="required" id="currentpassword_field"/>          
                             <h2>New Password:</h2>
                             <input type="password" placeholder="Enter new password" name="mail" required="required" id="newpassword_field"/>
-                            <h2>Confirm Password:</h2>
+                            <h2>Confirm New Password:</h2>
                             <input type="password" placeholder="Confirm new password" name="mail" required="required" id="confirmpassword_field"/>
                         </div>
 
