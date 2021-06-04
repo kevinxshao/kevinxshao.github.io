@@ -41,7 +41,7 @@
                         </div>
 
                         <div class="container">
-                            <button id="submitbutton" class ="glow2"  type="button" onclick="changePassword()">Submit</button>   
+                            <button id="submitbutton" class ="glow2"  type="button" onclick="reauthenticate()">Submit</button>   
                         </div>
                     </div>
                 </div>
