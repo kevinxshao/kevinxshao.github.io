@@ -14,7 +14,7 @@ function logout(){
 }
 
 function reauthenticate(){
-    document.getElementById('submitbutton').disabled = 'disabled';
+    document.getElementById("submitbutton").disabled = true;
 
     var user = firebase.auth().currentUser;
     var credential = firebase.auth.EmailAuthProvider.credential(user.email, document.getElementById("currentpassword_field").value);
@@ -38,9 +38,11 @@ function reauthenticate(){
         }
         else{
             window.alert("Passwords don't match!");  
+            document.getElementById("submitbutton").disabled = true;
         }
     }).catch(function(error) {
     // An error happened.
     window.alert(error);
+    document.getElementById("submitbutton").disabled = true;
     });
 }
