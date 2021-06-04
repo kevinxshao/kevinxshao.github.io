@@ -14,6 +14,8 @@ function logout(){
 }
 
 function reauthenticate(){
+    document.getElementById('submitbutton').disabled = 'disabled';
+
     var user = firebase.auth().currentUser;
     var credential = firebase.auth.EmailAuthProvider.credential(user.email, document.getElementById("currentpassword_field").value);
     
