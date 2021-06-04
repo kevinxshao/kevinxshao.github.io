@@ -34,6 +34,7 @@ function reauthenticate(){
             }).catch(function(error) {
             // An error happened.
             window.alert(error);
+            document.getElementById("submitbutton").disabled = false;
         });
         }
         else{
