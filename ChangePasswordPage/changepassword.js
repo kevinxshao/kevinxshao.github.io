@@ -38,11 +38,11 @@ function reauthenticate(){
         }
         else{
             window.alert("Passwords don't match!");  
-            document.getElementById("submitbutton").disabled = true;
+            document.getElementById("submitbutton").disabled = false;
         }
     }).catch(function(error) {
     // An error happened.
     window.alert(error);
-    document.getElementById("submitbutton").disabled = true;
+    document.getElementById("submitbutton").disabled = false;
     });
 }
