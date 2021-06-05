@@ -23,7 +23,7 @@
                             <div class="dropdown-content">
                                 <a class="active" href="index.xml" id="firstDropMenuItem" ><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:firstDropMenuItem"/></a>
                                 <a href="ChangePasswordPage/changepassword.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:secondDropMenuItem"/></a>
-                                <a href="#"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:thirdDropMenuItem"/></a>
+                                <a href="ChangeEmailPage/changeemail.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:signedinFirstMenuItem/tns:dropMenuItems/tns:thirdDropMenuItem"/></a>
                             </div>
                         </div>
                         <a href="AboutPage/about.xml" id="loggedout4" style="display: none;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:fourthMenuItem"/></a>
