@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://interdark.com/ChangeEmailPage/changeemail.xml" xmlns:tns="https://interdark.com/ChangeEmailPage/changeemail.xml" elementFormDefault="qualified">
+ 	
+ 	<xs:element name="WebPage">
+ 		<xs:complexType>
+ 			<xs:sequence>
+ 				<xs:element name="headPage" maxOccurs="1">
+ 					<xs:complexType>
+ 						<xs:sequence>
+ 							<xs:element name="titleText" type="xs:string" maxOccurs="1"/>
+ 						</xs:sequence>
+ 					</xs:complexType>
+ 				</xs:element>
+ 				<xs:element name="bodyPage" maxOccurs="1">
+ 					<xs:complexType>
+ 						<xs:sequence>
+ 							<xs:element name="topMenuBar" maxOccurs="1">
+ 								<xs:complexType>
+ 									<xs:sequence>
+ 										<xs:element name="firstMenuItem" maxOccurs="1">
+ 											<xs:complexType>
+ 												<xs:sequence>
+ 													<xs:element name="firstMenuItemName" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="firstdropitem" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="seconddropitem" type="xs:string" maxOccurs="1"/>
+ 													<xs:element name="thirddropitem" type="xs:string" maxOccurs="1"/>
+ 												</xs:sequence>
+ 											</xs:complexType>
+ 										</xs:element>
+ 										<xs:element name="secondMenuItem" type="xs:string" maxOccurs="1"/>
+                                        <xs:element name="logoMenuItem" type="xs:string" maxOccurs="1"/>
+ 									</xs:sequence>
+ 								</xs:complexType>
+ 							</xs:element>
+ 							<xs:element name="emailChangeInterface" maxOccurs="1">
+ 								<xs:complexType>
+ 									<xs:sequence>
+ 										<xs:element name="emailChangeHeader" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="emailChangeParagraph" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="emailChangeCurrentPasswordText" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="emailChangeNewEmailText" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="emailChangeConfirmEmailText" type="xs:string" maxOccurs="1"/>
+ 										<xs:element name="emailChangeSubmitButton" type="xs:string" maxOccurs="1"/>
+ 									</xs:sequence>
+ 								</xs:complexType>
+ 							</xs:element>
+ 						</xs:sequence>
+ 					</xs:complexType>
+ 				</xs:element>
+ 			</xs:sequence>
+ 		</xs:complexType>
+ 	
+ 	</xs:element>
+
+
+</xs:schema>

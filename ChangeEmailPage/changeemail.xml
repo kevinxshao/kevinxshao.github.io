@@ -2,6 +2,32 @@
 <?xml-stylesheet type = "text/xsl" href = "changeemail.xsl"?>
 <?xml-stylesheet href="changeemail.css"?>
 
-<WebPage>
 
-</WebPage>
+<tns:WebPage xmlns:tns="https://interdark.com/ChangeEmailPage/changeemail.xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://interdark.com/ChangeEmailPage/changeemail.xml changeemail.xsd">
+	<tns:headPage>
+		<tns:titleText>InterDark | Change Email</tns:titleText>
+	</tns:headPage>
+	
+	<tns:bodyPage>
+		<tns:topMenuBar>
+			<tns:firstMenuItem>
+				<tns:firstMenuItemName>My Account</tns:firstMenuItemName>
+				<tns:firstdropitem>Home</tns:firstdropitem>
+				<tns:seconddropitem>Change Password</tns:seconddropitem>
+				<tns:thirddropitem>Change Email</tns:thirddropitem>
+			</tns:firstMenuItem>
+	        <tns:secondMenuItem>Logout</tns:secondMenuItem>
+            <tns:logoMenuItem>InterDark</tns:logoMenuItem>
+		</tns:topMenuBar>
+		
+		<tns:emailChangeInterface>
+			<tns:emailChangeHeader>Change your email?</tns:emailChangeHeader>
+			<tns:emailChangeParagraph>Fill out the form below</tns:emailChangeParagraph>
+			<tns:emailChangeCurrentPasswordText>Current Password:</tns:emailChangeCurrentPasswordText>
+			<tns:emailChangeNewEmailText>New Email:</tns:emailChangeNewEmailText>
+			<tns:emailChangeConfirmEmailText>Confirm New Email:</tns:emailChangeConfirmEmailText>
+			<tns:emailChangeSubmitButton>Submit</tns:emailChangeSubmitButton>
+		</tns:emailChangeInterface>
+	</tns:bodyPage>
+	
+</tns:WebPage>

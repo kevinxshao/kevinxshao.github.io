@@ -4,7 +4,7 @@
      <xsl:template match="/">
         <html>
             <head>
-                <title>InterDark | Change Email</title>
+                <title><xsl:value-of select="tns:WebPage/tns:headPage/tns:titleText"/></title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                  <link rel="shortcut icon" href="../Pictures/interdarklogo.ico" />
                 <link rel="stylesheet" href="changeemail.css"/>
@@ -14,34 +14,34 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
-                        <a onclick="logout()" style="cursor: pointer;display: block;" id="loggedin1">Logout</a>
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:logoMenuItem"/></a>
+                        <a onclick="logout()" style="cursor: pointer;display: block;" id="loggedin1"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:secondMenuItem"/></a>
                         <div class="dropdown" style="display: block;" id="loggedin2">
-                            <button id="dropdownbtn" class="dropbtn">My Account</button>
+                            <button id="dropdownbtn" class="dropbtn"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:firstMenuItemName"/></button>
                             <div class="dropdown-content">
-                                <a href="../index.xml" id="firstDropMenuItem" >Home</a>
-                                <a href="../ChangePasswordPage/changepassword.xml" id="secondDropMenuItem">Change Password</a>
-                                <a class="active" href="changeemail.xml">Change Email</a>
+                                <a href="../index.xml" id="firstDropMenuItem" ><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:firstdropitem"/></a>
+                                <a href="../ChangePasswordPage/changepassword.xml" id="secondDropMenuItem"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:seconddropitem"/></a>
+                                <a class="active" href="changeemail.xml" id="thirdDropMenuItem"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:thirddropitem"/></a>
                             </div>
                         </div>
                     </div>
                     <div id="emailchangeform" style="display:none;">
                         <div class="container">
-                            <h2 id="changeemailheader">Change your email?</h2>
-                            <p id="changeemailpara">Fill out the form below</p>
+                            <h2 id="changeemailheader"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeHeader"/></h2>
+                            <p id="changeemailpara"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeParagraph"/></p>
                         </div>
 
                         <div class="container" style="background-color:white">
-                            <h2>Current Password</h2>
+                            <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeCurrentPasswordText"/></h2>
                             <input type="password" placeholder="Enter current password" name="mail" required="required" id="currentpassword_field"/>          
-                            <h2>New Email</h2>
-                            <input type="text" placeholder="Enter new password" name="mail" required="required" id="newemail_field"/>
-                            <h2>Confirm New Email</h2>
-                            <input type="text" placeholder="Confirm new password" name="mail" required="required" id="confirmemail_field"/>
+                            <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeNewEmailText"/></h2>
+                            <input type="text" placeholder="Enter new email" name="mail" required="required" id="newemail_field"/>
+                            <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeConfirmEmailText"/></h2>
+                            <input type="text" placeholder="Confirm new email" name="mail" required="required" id="confirmemail_field"/>
                         </div>
 
                         <div class="container">
-                            <button id="submitbutton" class ="glow2"  type="button" onclick="reauthenticate()">Submit</button>   
+                            <button id="submitbutton" class ="glow2"  type="button" onclick="reauthenticate()"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:emailChangeInterface/tns:emailChangeSubmitButton"/></button>   
                         </div>
                     </div>
                 </div>
