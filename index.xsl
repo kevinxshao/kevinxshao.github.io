@@ -64,7 +64,7 @@
                         <div id="slideshowui" class="slideshow-container">
                             <div class="mySlides fade">
                             <div class="numbertext"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide1Page"/></div>
-                            <a href="LoggedinMenu/Courses/courses.xml"><img src="Pictures/courses.png" style="width:100%" id="slideshowpic1"/>
+                            <a href="LoggedinMenu/Courses/courses.xml"><img src="Pictures/courses.png" style="width:100%" id="slideshowpic1"/></a>
                             <div class="text"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide1Text"/></div>
                             </div>
 
