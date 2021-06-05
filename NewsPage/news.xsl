@@ -49,7 +49,7 @@
                                 </div>
                                 <br/>
                                 <div class="container">
-                                    <img id="project2" src="../Pictures/appdevelopment.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/><br/>
+                                    <a href="../MyProjectsPage/AppDevelopmentPage/appdevelopment.xml"><img id="project2" src="../Pictures/appdevelopment.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/></a><br/>
                                     <div class="overlay"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:newsInterface/tns:myProjectsInterface/tns:myProjectsImage2text"/></div>
                                 </div>
                                 <div class="container">
