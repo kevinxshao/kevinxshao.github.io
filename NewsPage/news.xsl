@@ -53,7 +53,7 @@
                                     <div class="overlay"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:newsInterface/tns:myProjectsInterface/tns:myProjectsImage2text"/></div>
                                 </div>
                                 <div class="container">
-                                    <img id="project3" src="../Pictures/programming.png" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/>
+                                    <a href="../MyProjectsPage/ProgrammingPage/programming.xml"><img id="project3" src="../Pictures/programming.png" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/></a>
                                     <div class="overlay"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:newsInterface/tns:myProjectsInterface/tns:myProjectsImage3text"/></div>
                                 </div>
                             </div>
