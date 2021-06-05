@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="https://interdark.com/LoggedinMenu/Games/games.xml">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tns="https://interdark.com/LoggedinMenu/Courses/courses.xml">
     <xsl:output method="html" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html>
             <head>
-                <title>InterDark | Games</title>
+                <title>InterDark | Courses</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                  <link rel="shortcut icon" href="../../Pictures/interdarklogo.ico" />
-                <link rel="stylesheet" href="games.css"/>
+                <link rel="stylesheet" href="courses.css"/>
                  <link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'/>
             </head>
             <body onload="loadTime()" id="body1">
@@ -18,13 +18,13 @@
                     </div>
                 <div id="blogpost">
                     <div class="header">
-                        <h2 style="font-style: italic;">Games</h2>
+                        <h2 style="font-style: italic;">Courses</h2>
                     </div>
 
                     <div class="row">
                         <div class="column">
                             <div class="card">
-                            <h2>StickMan</h2>
+                            <h2>Math</h2>
                             <h5>Work in Progress</h5>
                             <p style="color:white;">Work in Progress</p>
                             </div>
@@ -44,8 +44,8 @@
                     https://firebase.google.com/docs/web/setup#available-libraries -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
                 <script src="../../firebaselogin.js"></script>  
-                <script src="games.js"></script>  
-                <script src="gamesload.js"></script>  
+                <script src="courses.js"></script>  
+                <script src="coursesload.js"></script>  
             </body>
         </html>
     </xsl:template>
