@@ -70,7 +70,7 @@
 
                             <div class="mySlides fade">
                             <div class="numbertext"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide2Page"/></div>
-                            <img src="Pictures/games.png" style="width:100%" id="slideshowpic2"/>
+                            <a href="LoggedInMenu/Games/games.xml"><img src="Pictures/games.png" style="width:100%" id="slideshowpic2"/></a>
                             <div class="text"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide2Text"/></div>
                             </div>
 
