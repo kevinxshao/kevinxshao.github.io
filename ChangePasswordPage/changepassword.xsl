@@ -21,7 +21,7 @@
                             <div class="dropdown-content">
                                 <a href="../index.xml" id="firstDropMenuItem" ><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:firstdropitem"/></a>
                                 <a class="active" href="changepassword.xml" id="secondDropMenuItem"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:seconddropitem"/></a>
-                                <a href="ChangeEmailPage/changeemail.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:thirddropitem"/></a>
+                                <a href="../ChangeEmailPage/changeemail.xml"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:topMenuBar/tns:firstMenuItem/tns:thirddropitem"/></a>
                             </div>
                         </div>
                     </div>
