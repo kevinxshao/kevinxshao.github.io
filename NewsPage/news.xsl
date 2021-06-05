@@ -44,7 +44,7 @@
                             <div class="card">
                             <h3><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:newsInterface/tns:myProjectsInterface/tns:myProjectsHeader"/></h3>
                                 <div class="container">
-                                    <img id="project1" src="../Pictures/embeddedsystems.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/>
+                                    <a href="../MyProjectsPage/EmbeddedSystemsPage/embeddedsystems.xml"><img id="project1" src="../Pictures/embeddedsystems.jpg" style="width:100%; height:150px;padding: 20px;cursor: pointer;"/></a>
                                     <div class="overlay"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:newsInterface/tns:myProjectsInterface/tns:myProjectsImage1text"/></div>
                                 </div>
                                 <br/>
