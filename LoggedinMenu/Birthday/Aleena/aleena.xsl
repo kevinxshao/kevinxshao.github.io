@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="footer">
-                        <h2><a href="../../index.xml" style="cursor: pointer;">Go Home</a></h2>
+                        <h2><a href="../../../index.xml" style="cursor: pointer;">Go Home</a></h2>
                     </div>        
                     </div>
                 </div>
