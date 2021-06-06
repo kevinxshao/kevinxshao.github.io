@@ -76,7 +76,7 @@
 
                             <div class="mySlides fade">
                             <div class="numbertext"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide3Page"/></div>
-                            <img src="Pictures/birthday.png" style="width:100%" id="slideshowpic3" onclick="choosebirthday()"/>
+                            <img src="Pictures/birthday.png" style="width:100%;cursor: pointer;" id="slideshowpic3" onclick="choosebirthday()"/>
                             <div class="text"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:loggedinInterface/tns:slideshowInterface/tns:slide3Text"/></div>
                             </div>
 
