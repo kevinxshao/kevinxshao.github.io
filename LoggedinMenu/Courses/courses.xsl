@@ -24,9 +24,8 @@
                     <div class="row">
                         <div class="column">
                             <div class="card">
-                            <h2>Math</h2>
-                            <h5>Work in Progress</h5>
-                            <p style="color:white;">Work in Progress</p>
+                            <h2 style="text-align: center;">Algebra</h2>
+                            <img src="../../Pictures/Algebra.png" style="width:300px%; height:300px"/>
                             </div>
                         </div>
                         
