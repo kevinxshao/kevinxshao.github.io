@@ -24,8 +24,12 @@
                     <div class="row">
                         <div class="column">
                             <div class="card">
-                            <h2 style="text-align: center;">Algebra</h2>
+                            <h2 style="text-align: center;">Pre Algebra</h2>
                             <img src="../../Pictures/Algebra.png" style="width:300px%; height:300px"/>
+                            </div>
+                            <div class="card">
+                            <h2 style="text-align: center;">Intermediate Algebra</h2>
+                            <img src="../../Pictures/intermediateAlgebra.png" style="width:300px%; height:300px"/>
                             </div>
                         </div>
                         
