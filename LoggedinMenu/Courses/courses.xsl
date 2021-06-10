@@ -29,11 +29,15 @@
                             </div>
                             <div class="card">
                             <h2 style="text-align: center;">Intermediate Algebra</h2>
-                            <img src="../../Pictures/intermediateAlgebra.png" style="width:300px%; height:300px"/>
+                            <img src="../../Pictures/intermediateAlgebra.png" style="width:300px; height:300px"/>
                             </div>
-                             <div class="card">
+                            <div class="card">
                             <h2 style="text-align: center;">Geometry</h2>
-                            <img src="../../Pictures/Geometry.png" style="width:300px%; height:300px"/>
+                            <img src="../../Pictures/Geometry.png" style="width:300px; height:300px"/>
+                            </div>
+                            <div class="card">
+                            <h2 style="text-align: center;">Statistics</h2>
+                            <img src="../../Pictures/Statistics.png" style="width:300px; height:300px"/>
                             </div>
                         </div>
                         
