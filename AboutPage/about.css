@@ -39,7 +39,10 @@ body {font-family: 'Comic Neue'; margin: 0;}
     #teampara{
       font-size: 16px !important;
     }
- 
+    img{
+      width:100px !important;
+      height:100px !important;
+    }
   }
   
   /*Loading Screen */
