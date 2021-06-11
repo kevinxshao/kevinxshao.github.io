@@ -39,10 +39,7 @@ body {font-family: 'Comic Neue'; margin: 0;}
     #teampara{
       font-size: 16px !important;
     }
-    img{
-      width:100px !important;
-      height:100px !important;
-    }
+
   }
   
   /*Loading Screen */
@@ -187,15 +184,7 @@ body {font-family: 'Comic Neue'; margin: 0;}
     text-align: center;
     background: #333;
   }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  img{
-    width:300px;
-    height:300px;
-  }
+
+ 
   
  

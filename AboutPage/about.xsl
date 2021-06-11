@@ -31,7 +31,7 @@
                         <div class="row">
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/superhero.png" alt="Profile Picture"  class="center"/>
+                                <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
                                     <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Name"/></h2>
                                     <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Job"/></p>
@@ -42,7 +42,7 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/sportman.png" alt="Profile Picture" class="center"/>
+                                <img src="../Pictures/sportman.png" alt="Profile Picture"  style="width:100%;"/>
                                 <div class="container">
                                     <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Name"/></h2>
                                     <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Job"/></p>
@@ -53,7 +53,7 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/stickfood.png" alt="Profile Picture" class="center"/>
+                                <img src="../Pictures/stickfood.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
                                     <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Name"/></h2>
                                     <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Job"/></p>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/bluestick.png" alt="Profile Picture" class="center"/>
+                                <img src="../Pictures/bluestick.png" alt="Profile Picture" style="width:100%;"/>
                                 <div class="container">
                                     <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Name"/></h2>
                                     <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Job"/></p>
