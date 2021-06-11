@@ -39,6 +39,10 @@
                             <h2 style="text-align: center;">Statistics</h2>
                             <img src="../../Pictures/Statistics.png" style="width:300px; height:300px"/>
                             </div>
+                            <div class="card">
+                            <h2 style="text-align: center;">Calculus 1</h2>
+                            <img src="../../Pictures/Calculus1.png" style="width:300px; height:300px"/>
+                            </div>
                         </div>
                         
                     </div>

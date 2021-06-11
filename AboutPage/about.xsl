@@ -31,10 +31,10 @@
                         <div class="row">
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/superhero.png" alt="Profile Picture" style="width:100%;"/>
+                                <img src="../Pictures/superhero.png" alt="Profile Picture"  class="center"/>
                                 <div class="container">
-                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Name"/></h2>
-                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Job"/></p>
+                                    <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Name"/></h2>
+                                    <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Job"/></p>
                                     <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Paragraph1"/></p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member1/tns:member1Contact"/></button></p>
                                 </div>
@@ -42,10 +42,10 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/sportman.png" alt="Profile Picture" style="width:100%;"/>
+                                <img src="../Pictures/sportman.png" alt="Profile Picture" class="center"/>
                                 <div class="container">
-                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Name"/></h2>
-                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Job"/></p>
+                                    <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Name"/></h2>
+                                    <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Job"/></p>
                                     <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Paragraph2"/></p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member2/tns:member2Contact"/></button></p>
                                 </div>
@@ -53,10 +53,10 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/stickfood.png" alt="Profile Picture" style="width:100%;"/>
+                                <img src="../Pictures/stickfood.png" alt="Profile Picture" class="center"/>
                                 <div class="container">
-                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Name"/></h2>
-                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Job"/></p>
+                                    <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Name"/></h2>
+                                    <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Job"/></p>
                                     <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Paragraph3"/></p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member3/tns:member3Contact"/></button></p>
                                 </div>
@@ -64,10 +64,10 @@
                             </div>
                             <div class="column">
                                 <div class="card">
-                                <img src="../Pictures/bluestick.png" alt="Profile Picture" style="width:100%;"/>
+                                <img src="../Pictures/bluestick.png" alt="Profile Picture" class="center"/>
                                 <div class="container">
-                                    <h2><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Name"/></h2>
-                                    <p class="title"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Job"/></p>
+                                    <h2 style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Name"/></h2>
+                                    <p class="title" style="text-align:center;"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Job"/></p>
                                     <p><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Paragraph4"/></p>
                                     <p><button onclick="window.location='https://github.com/kevinxshao'" class="button"><xsl:value-of select="tns:WebPage/tns:bodyPage/tns:meettheteamInterface/tns:member4/tns:member4Contact"/></button></p>
                                 </div>
