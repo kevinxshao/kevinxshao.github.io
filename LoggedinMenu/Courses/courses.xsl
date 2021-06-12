@@ -51,6 +51,10 @@
                             <h2 style="text-align: center;">Calculus 3</h2>
                             <img src="../../Pictures/Calculus3.png" style="width:300px; height:300px"/>
                             </div>
+                            <div class="card">
+                            <h2 style="text-align: center;">Differential Equations</h2>
+                            <img src="../../Pictures/Differentialequations.png" style="width:300px; height:300px"/>
+                            </div>
                             
                         </div>
                         
