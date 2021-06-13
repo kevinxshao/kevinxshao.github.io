@@ -19,6 +19,7 @@ function playAudio() {
     audio.play();
   }
 function lightup1(){
+    window.alert("working");
     document.getElementById("makefaded").classList.remove('blowoutcandles');
     document.getElementById("makefaded").classList.add('lightupcandles');
 }
