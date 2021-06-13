@@ -20,7 +20,7 @@
                     </div>
                 <div id="blogpost">
                     <div class="header">
-                        <h2 class="zoom" style="font-style: italic;cursor: default;" id="birthdayName" onclick="playAudio()">Happy Birthday Aleena!</h2>
+                        <h2 class="zoom" style="font-style: italic;cursor: pointer;" id="birthdayName" onclick="playAudio()">Happy Birthday Aleena!</h2>
                     </div>
 
                     <div class="row">
@@ -28,10 +28,10 @@
                             <div class="card">
                            <div class="coupon">
                             <div class="container2">
-                                <h3 style="text-align:center;font-size:30px;color:black;pointer-events: none;" id="birthdayHead">H A<a id="makefaded">u</a> P P Y <br/>
-                                Bi R<a id="makefaded">n</a> Th D<a id="makefaded">b</a> A<a id="makefaded">u</a> Y</h3>
+                                <h3 style="text-align:center;font-size:40px;color:black;pointer-events: none;" id="birthdayHead">H A<a id="makefaded" onmouseover="lightup1()" class="blowoutcandles">u</a> P P Y <br/>
+                                Bi R<a id="makefaded2" onmouseover="lightup2()" class="blowoutcandles">n</a> Th D<a id="makefaded3" onmouseover="lightup3()" class="blowoutcandles">b</a> A<a id="makefaded4" onmouseover="lightup4()" class="blowoutcandles">u</a> Y</h3>
                             </div>
-                            <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" style="width:300px;height:300px;" class="center"/>
+                            <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard"/>
                             <div class="container" style="background-color:#333">
                                 <h2 style="text-align: center;pointer-events: none;" id="birthdayName"><b>Aleena</b></h2> 
                                 <p id="birthdayText" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait let me say... Whats up Doc? Happy Birthday. You wondering why these words are up in flames? Its cause Im spittin fire.</p>
@@ -58,6 +58,7 @@
                 <script src="../../../firebaselogin.js"></script>  
                 <script src="aleena.js"></script>  
                 <script src="aleenaload.js"></script>  
+              
             </body>
         </html>
     </xsl:template>
