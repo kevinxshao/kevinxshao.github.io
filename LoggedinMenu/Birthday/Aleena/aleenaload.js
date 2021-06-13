@@ -9,6 +9,9 @@ function showPage() {
         document.getElementById("logotext").classList.remove('glow');
         document.getElementById("logotext").classList.add('glownone');
     }
+    if (navigator.appVersion.indexOf("Chrome/") != -1){
+        document.getElementById("birthdayName").classList.remove('zoom');
+    }
     playAudio();
 }
 function playAudio() {
