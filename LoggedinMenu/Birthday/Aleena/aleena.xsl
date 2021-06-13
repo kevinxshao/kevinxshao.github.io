@@ -20,7 +20,7 @@
                     </div>
                 <div id="blogpost">
                     <div class="header">
-                        <h2 class="zoom" style="font-style: italic;cursor: default;" id="birthdayName">Happy Birthday Aleena!</h2>
+                        <h2 class="zoom" style="font-style: italic;cursor: default;" id="birthdayName" onclick="playAudio()">Happy Birthday Aleena!</h2>
                     </div>
 
                     <div class="row">
