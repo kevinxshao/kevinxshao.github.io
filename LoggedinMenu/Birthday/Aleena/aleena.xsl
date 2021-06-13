@@ -31,12 +31,12 @@
                                 <h3 style="text-align:center;font-size:40px;color:black;cursor: default;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup1()">u</a> P P Y <br/>
                                 Bi R<a id="makefaded2" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup2()">n</a> Th D<a id="makefaded3" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup3()">b</a> A<a id="makefaded4" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup4()">u</a> Y</h3>
                             </div>
-                            <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard"/>
+                            <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard" onmouseover="this.src='../../../Pictures/birthdaycardaleenaback.png';" onmouseout="this.src='../../../Pictures/birthdaycardaleena.png';"/>
                             <div class="container" style="background-color:#333">
                                 <h2 style="text-align: center;pointer-events: none;" id="birthdayName"><b>Aleena</b></h2> 
                                 <p id="birthdayText" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait let me say... Whats up Doc? Happy Birthday. You wondering why these words are up in flames? Its cause Im spittin fire.</p>
                             </div>
-                     
+                            
                             </div>
                             </div>
                         </div>
