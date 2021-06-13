@@ -9,4 +9,9 @@ function showPage() {
         document.getElementById("logotext").classList.remove('glow');
         document.getElementById("logotext").classList.add('glownone');
     }
+    playAudio();
 }
+function playAudio() {
+    var audio = document.getElementById("audio");
+    audio.play();
+  }

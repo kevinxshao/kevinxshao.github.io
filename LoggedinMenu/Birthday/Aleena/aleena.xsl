@@ -48,6 +48,7 @@
                     </div>        
                     </div>
                 </div>
+                <audio id="audio" src="../../../Songs/bdaysong.mp3" loop ="loop"></audio>
                  <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
