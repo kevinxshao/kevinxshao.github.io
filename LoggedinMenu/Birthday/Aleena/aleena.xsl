@@ -28,8 +28,8 @@
                             <div class="card">
                            <div class="coupon">
                             <div class="container2">
-                                <h3 style="text-align:center;font-size:40px;color:black;pointer-events: none;" id="birthdayHead">H A<a id="makefaded" onmouseover="lightup1()" class="blowoutcandles">u</a> P P Y <br/>
-                                Bi R<a id="makefaded2" onmouseover="lightup2()" class="blowoutcandles">n</a> Th D<a id="makefaded3" onmouseover="lightup3()" class="blowoutcandles">b</a> A<a id="makefaded4" onmouseover="lightup4()" class="blowoutcandles">u</a> Y</h3>
+                                <h3 style="text-align:center;font-size:40px;color:black;pointer-events: none;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" onclick="lightup1()">u</a> P P Y <br/>
+                                Bi R<a id="makefaded2">n</a> Th D<a id="makefaded3">b</a> A<a id="makefaded4">u</a> Y</h3>
                             </div>
                             <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard"/>
                             <div class="container" style="background-color:#333">
