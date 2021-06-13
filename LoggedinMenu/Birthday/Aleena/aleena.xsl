@@ -16,7 +16,7 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;cursor: default;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
+                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
                     </div>
                 <div id="blogpost">
                     <div class="header">
@@ -28,7 +28,7 @@
                             <div class="card">
                            <div class="coupon">
                             <div class="container2">
-                                <h3 style="text-align:center;font-size:40px;color:black;pointer-events: none;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" style="cursor: pointer;" onclick="lightup1()">u</a> P P Y <br/>
+                                <h3 style="text-align:center;font-size:40px;color:black;cursor: default;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" style="cursor: pointer;" onclick="lightup1()">u</a> P P Y <br/>
                                 Bi R<a id="makefaded2">n</a> Th D<a id="makefaded3">b</a> A<a id="makefaded4">u</a> Y</h3>
                             </div>
                             <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard"/>
