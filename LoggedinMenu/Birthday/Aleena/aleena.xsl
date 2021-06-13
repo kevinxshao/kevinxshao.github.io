@@ -16,7 +16,7 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
+                        <a id="logotext" class="glow" style="float:left;cursor: default;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
                     </div>
                 <div id="blogpost">
                     <div class="header">
