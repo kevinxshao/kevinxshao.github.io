@@ -1,7 +1,8 @@
 body {
-    font-family: 'Comic Neue';
+    font-family: 'Londrina Solid';
     background: #f1f1f1;
     margin: 0;
+    overflow-x: hidden;
   }
   .topnav {
       overflow: hidden;
@@ -53,7 +54,7 @@ body {
       margin: -76px 0 0 -76px;
       border: 16px solid #f3f3f3;
       border-radius: 50%;
-      border-top: 16px solid #000000;
+      border-top: 16px solid gold;
       -webkit-animation: spin 1s linear infinite;
       animation: spin 1s linear infinite;
     }
@@ -86,7 +87,7 @@ body {
       }
       
       to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
       }
     }
   
@@ -100,6 +101,21 @@ body {
     font-size: 40px;
     text-align: center;
     background: #333;
+    
+  }
+  
+  .zoom:hover{
+    animation: enlarge 1s ease-in-out infinite alternate;
+  }
+
+
+  @keyframes enlarge {
+    from {
+      transform: scale(1);
+    }
+    to{
+      transform: scale(1.5);
+    }
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -163,4 +179,75 @@ body {
   #heropic{
     width: 500px;
   }
+  .coupon {
+    border: 5px solid gold;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
   
+  .container {
+    padding: 2px 16px;
+    background-color: #333;
+  }
+
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
+  .grad1{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+
+  }
+  .container2 {
+    padding: 2px 16px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+
+  }
+  #makefaded{
+      opacity: 0.1;
+  }
+
+  #birthdayText{
+      font-family: 'Sofia';
+      text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+      color: #ffe;
+      font-style: normal;
+      font-weight: 400;
+      font-size:30px;
+    }
+  #birthdayName{
+    font-family: 'Sofia';
+    text-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em #f7f,0 0 0.6em #f0f, 0 0 0.8em #f0f, 0 0 1.0em #f0f, 0 0 1.2em #f0f;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size:40px;
+  }
+  #birthdayHead{
+    font-family: 'Sofia';
+    text-shadow: 0px 1px 1px #fff, 0 -1px 1px #000;
+    color: #ddd;
+    font-style: normal;
+    font-weight: 400;
+    font-size:40px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
