@@ -30,13 +30,13 @@
                             <div class="card">
                            <div class="coupon">
                             <div class="container2">
-                                <h3 style="text-align:center;font-size:40px;color:black;cursor: default;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup1()">u</a> P P Y <br/>
-                                Bi R<a id="makefaded2" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup2()">n</a> Th D<a id="makefaded3" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup3()">b</a> A<a id="makefaded4" class="blowoutcandles" style="cursor: pointer;" onmouseover="lightup4()">u</a> Y</h3>
+                                <h3 style="text-align:center;font-size:40px;color:black;cursor: default;" id="birthdayHead">H A<a id="makefaded" class="blowoutcandles" style="cursor: pointer;" onclick="lightup1()">u</a> P P Y <br/>
+                                Bi R<a id="makefaded2" class="blowoutcandles" style="cursor: pointer;" onclick="lightup2()">n</a> Th D<a id="makefaded3" class="blowoutcandles" style="cursor: pointer;" onclick="lightup3()">b</a> A<a id="makefaded4" class="blowoutcandles" style="cursor: pointer;" onclick="lightup4()">u</a> Y</h3>
                             </div>
                             <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard" onmouseover="this.src='../../../Pictures/birthdaycardaleenaback.png';" onmouseout="this.src='../../../Pictures/birthdaycardaleena.png';"/>
                             <div class="container" style="background-color:#333">
                                 <h2 style="text-align: center;pointer-events: none;" id="birthdayName"><b>Aleena</b></h2> 
-                                <p id="birthdayText" class="birthdayTextlighton" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait let me say... Whats up Doc? Happy Birthday. You wondering why these words are up in flames? Its cause Im spittin fire.</p>
+                                <p id="birthdayText" class="birthdayTextlighton" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait I meant to say... Whats up Doc? Happy Birthday to the best person in the world :D Make sure you light up all the candles and make a wish before you leave.</p>
                             </div>
                             
                             </div>
@@ -52,6 +52,12 @@
                     </div>
                 </div>
                 <audio id="audio" src="../../../Songs/bdaysong.mp3" loop ="loop"></audio>
+                <audio id="audio1" src="../../../Songs/blowcandle.mp4"></audio>
+                <audio id="audio2" src="../../../Songs/lightup.mp4"></audio>
+                <audio id="audio3" src="../../../Songs/lightup.mp4"></audio>
+                <audio id="audio4" src="../../../Songs/lightup.mp4"></audio>
+                <audio id="audio5" src="../../../Songs/lightup.mp4"></audio>
+                <audio id="audio6" src="../../../Songs/lightup.mp4"></audio>
                  <!-- The core Firebase JS SDK is always required and must be listed first -->
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
 
