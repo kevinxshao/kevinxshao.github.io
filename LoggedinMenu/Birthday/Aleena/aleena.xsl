@@ -16,7 +16,9 @@
                 <div id="loader"></div>
                 <div id="wholeweb" style="display:none;">
                     <div class="topnav">   
-                        <a id="logotext" class="glow" style="float:left;pointer-events: none;font-family:'Comic Neue';font-weight:bold;font-style: italic;">InterDark</a>
+                        <a id="logotext" class="glow" style="float:left;font-family:'Comic Neue';font-weight:bold;font-style: italic;cursor: pointer;" onclick="lightoff()">Make a wish</a>
+                          <img src="../../../Pictures/candleoff.png" alt="candles" class="center" id="candle" onclick="candleup()"/>  
+                      
                     </div>
                 <div id="blogpost">
                     <div class="header">
@@ -34,7 +36,7 @@
                             <img src="../../../Pictures/birthdaycardaleena.png" alt="BirthdayCard" class="center" id="birthdaycard" onmouseover="this.src='../../../Pictures/birthdaycardaleenaback.png';" onmouseout="this.src='../../../Pictures/birthdaycardaleena.png';"/>
                             <div class="container" style="background-color:#333">
                                 <h2 style="text-align: center;pointer-events: none;" id="birthdayName"><b>Aleena</b></h2> 
-                                <p id="birthdayText" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait let me say... Whats up Doc? Happy Birthday. You wondering why these words are up in flames? Its cause Im spittin fire.</p>
+                                <p id="birthdayText" class="birthdayTextlighton" style="pointer-events: none;">Hey Aleena or should I say...Hey Doc! No wait let me say... Whats up Doc? Happy Birthday. You wondering why these words are up in flames? Its cause Im spittin fire.</p>
                             </div>
                             
                             </div>
@@ -45,6 +47,7 @@
 
                     <div class="footer">
                         <h2><a href="../../../index.xml" style="cursor: pointer;">Leave The Party!</a></h2>
+                        
                     </div>        
                     </div>
                 </div>

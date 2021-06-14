@@ -43,6 +43,12 @@ body {
         width:170px !important;
         height:170px !important;
       }
+      #candle{
+        float:right;
+        width:35px !important;
+        height:35px !important;
+        cursor: pointer;
+      }
     }
   
     /*Loading Screen */
@@ -241,9 +247,18 @@ body {
     opacity: 1;
   }
 
-  #birthdayText{
+    .birthdayText{
       font-family: 'Sofia';
+    }
+    .birthdayTextlighton{
       text-shadow: 0 -0.05em 0.2em #FFF, 0.01em -0.02em 0.15em #FE0, 0.01em -0.05em 0.15em #FC0, 0.02em -0.15em 0.2em #F90, 0.04em -0.20em 0.3em #F70, 0.05em -0.25em 0.4em #F70, 0.06em -0.2em 0.9em #F50, 0.1em -0.1em 1.0em #F40;
+      color: #ffe;
+      font-style: normal;
+      font-weight: 400;
+      font-size:30px;
+    }
+    .birthdayTextlightoff{
+      text-shadow: none;
       color: #ffe;
       font-style: normal;
       font-weight: 400;
@@ -274,4 +289,17 @@ body {
   #birthdaycard{
     width:300px;
     height:300px;
+  }
+  #logotext:hover{
+    background-color:#333;
+    color:white;
+  }
+  .standardbackground{
+    background:#333;
+  }
+  #candle{
+    float:right;
+    width:50px;
+    height:50px;
+    cursor: pointer;
   }
