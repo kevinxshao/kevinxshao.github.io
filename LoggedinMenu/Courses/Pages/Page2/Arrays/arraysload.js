@@ -9,4 +9,5 @@ function showPage() {
         document.getElementById("logotext").classList.remove('glow');
         document.getElementById("logotext").classList.add('glownone');
     }
+    showEditor();
 }

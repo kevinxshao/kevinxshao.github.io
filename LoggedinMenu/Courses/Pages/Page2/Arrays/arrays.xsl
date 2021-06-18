@@ -27,6 +27,16 @@
                             <h2 style="text-align: center;">Hello welcome to arrays</h2>
                             </div>      
                         </div>
+                         <div class="column">
+                            <div class="card">
+                                <div class="headercode"> Codeboard Online IDE </div>
+                                <div class="editor" id="editor"></div>
+                                <div class="button-container">
+                                    <button class="btn" onclick="executeCode()"> Run </button>
+                                </div>
+                                <div class="output"> </div>
+                            </div>      
+                        </div>
                         
                     </div>
 
@@ -43,7 +53,11 @@
                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
                 <script src="../../../../../firebaselogin.js"></script>  
                 <script src="arrays.js"></script>  
-                <script src="arraysload.js"></script>  
+                <script src="arraysload.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+                <script src="lib/ace.js"></script>  
+                <script src="lib/theme-monokai.js"></script>  
+                <script src="ide.js"></script>  
             </body>
         </html>
     </xsl:template>
