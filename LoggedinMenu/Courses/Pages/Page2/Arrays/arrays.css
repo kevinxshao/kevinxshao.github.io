@@ -177,17 +177,23 @@ body {
     padding: 4px;
     font-family: sans-serif;
   }
-#editor {height: 400px;}
+  #editor {
+    height: 400px;
+    font-size: 20px;
+  }
   .button-container {
     text-align: right;
     padding: 4px;
   }
 
   .btn {
-    background: #57a958;
-    color:white;
+    background: skyblue;
+    color:#333;
     padding: 8px;
     border: 0;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
   }
   #output {
     padding: 4px;
@@ -196,4 +202,6 @@ body {
     width: 100%;
     resize: none;
     color:white;
+    font-size: 30px;
+    text-align: center;
   }

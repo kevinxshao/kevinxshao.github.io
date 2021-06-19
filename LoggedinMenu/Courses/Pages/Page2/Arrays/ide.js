@@ -1,5 +1,5 @@
 let editor;
-let defaultCode ='console.log("Hello world!")';
+let defaultCode ='console.log("Hello world!");';
 var logBackup = console.log;
 var logMessages = [];
 function showEditor() {
@@ -15,9 +15,15 @@ function showEditor() {
 
 function executeCode(){
     const userCode = editor.getValue();
+    document.getElementById("output").innerHTML = "";
+    logMessages =[];
     try{
-        console.log(new Function(userCode)()); 
-        document.getElementById("output").innerHTML = logMessages;
+        new Function(userCode)(); 
+        var result = "";
+        for(let i = 0; i < logMessages.length; i++){
+            result += logMessages[i];
+        }
+        document.getElementById("output").innerHTML = result;
     }
        
     catch (err){

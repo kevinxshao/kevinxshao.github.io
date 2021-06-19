@@ -34,7 +34,7 @@
                                 <div class="button-container">
                                     <button class="btn" onclick="executeCode()"> Run </button>
                                 </div>
-                                <div id="output"> </div>
+                                <div id="output"></div>
                             </div>      
                         </div>
                         

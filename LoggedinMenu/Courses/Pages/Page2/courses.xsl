@@ -25,7 +25,7 @@
                         <div class="column">
                             <div class="card">
                             <h2 style="text-align: center;">Arrays</h2>
-                            <a  href="Arrays/arrays.xml"><img src="../../../../Pictures/Arrays.png" style="width:300px%; height:300px"/></a>
+                            <a  href="Arrays/arrays.xml"><img src="../../../../Pictures/Arrays.png" style="width:300px; height:300px;"/></a>
                             </div>      
                         </div>
                         
