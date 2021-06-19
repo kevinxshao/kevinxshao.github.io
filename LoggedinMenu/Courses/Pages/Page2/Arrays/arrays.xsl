@@ -29,7 +29,7 @@
                         </div>
                          <div class="column">
                             <div class="card">
-                                <div class="headercode"> Codeboard Online IDE </div>
+                                <div class="headercode"> InterDark IDE </div>
                                 <div class="editor" id="editor"></div>
                                 <div class="button-container">
                                     <button class="btn" onclick="executeCode()"> Run </button>

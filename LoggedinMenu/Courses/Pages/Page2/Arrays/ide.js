@@ -28,6 +28,7 @@ function executeCode(){
        
     catch (err){
         console.error(err);
+        document.getElementById("output").innerHTML = err;
     }
 
 }
