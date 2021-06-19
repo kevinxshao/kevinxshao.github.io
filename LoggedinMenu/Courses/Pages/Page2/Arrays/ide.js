@@ -24,6 +24,7 @@ function executeCode(){
             result += logMessages[i];
         }
         document.getElementById("output").innerHTML = result;
+        executeCode2();
     }
        
     catch (err){
@@ -36,3 +37,26 @@ console.log = function() {
     logMessages.push.apply(logMessages, arguments);
     logBackup.apply(console, arguments);
 };
+
+function changeLanguage() {
+    let language = $("#languages").val();
+    if(language == 'js')editor.session.setMode("ace/mode/javascript");
+    else if(language == 'java') editor.session.setMode("ace/mode/java");
+}
+
+function executeCode2(){
+    $.ajax({
+
+        url: "compiler.php",
+        method: "POST",
+        data:{
+            language: $("#languages").val(),
+            code: editor.getSession().getValue()
+        },
+
+        success: function(response){
+            $(".output").text(response)
+        }
+
+    });
+}

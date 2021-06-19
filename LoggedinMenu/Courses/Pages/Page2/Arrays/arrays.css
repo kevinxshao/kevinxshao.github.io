@@ -222,3 +222,17 @@ body {
     overflow: auto;
     white-space: nowrap;
   }
+
+  .control-panel{
+    background: #333;
+    text-align: right;
+    padding: 4px;
+    font-family: sans-serif;
+  }
+
+  .languages{
+    background: white;
+    border: 1px solid gray;
+    font-size: 30px;
+  }
+
