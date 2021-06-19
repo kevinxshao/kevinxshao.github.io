@@ -34,7 +34,7 @@
                                 <div class="button-container">
                                     <button class="btn" onclick="executeCode()"> Run </button>
                                 </div>
-                                <div class="output"> </div>
+                                <div id="output"> </div>
                             </div>      
                         </div>
                         
@@ -54,9 +54,11 @@
                 <script src="../../../../../firebaselogin.js"></script>  
                 <script src="arrays.js"></script>  
                 <script src="arraysload.js"></script>
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
                 <script src="lib/ace.js"></script>  
-                <script src="lib/theme-monokai.js"></script>  
+                <script src="lib/ext-language_tools.js"></script>  
+                <script src="lib/mode-javascript.js"></script>  
+                <script src="lib/theme-dracula.js"></script>  
+                <script src="lib/worker-javascript.js"></script>  
                 <script src="ide.js"></script>  
             </body>
         </html>
