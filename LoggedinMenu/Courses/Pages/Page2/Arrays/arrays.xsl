@@ -30,12 +30,6 @@
                          <div class="column">
                             <div class="card">
                                 <div class="headercode"> InterDark IDE </div>
-                                <div class="control-panel">
-                                    <select id="languages" class="languages" onchange="changeLanguage()">
-                                        <option value="js">JavaScript</option>
-                                        <option value="java">Java</option>
-                                    </select> 
-                                </div>
                                 <div class="editor" id="editor"></div>
                                 <div class="button-container">
                                     <button class="btn" onclick="executeCode()"> Run </button>
@@ -63,11 +57,9 @@
                 <script src="lib/ace.js"></script>  
                 <script src="lib/ext-language_tools.js"></script>  
                 <script src="lib/mode-javascript.js"></script>  
-                <script src="lib/mode-java.js"></script>  
                 <script src="lib/theme-dracula.js"></script>  
                 <script src="lib/worker-javascript.js"></script>
                 <script src="ide.js"></script>  
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             </body>
         </html>
     </xsl:template>
