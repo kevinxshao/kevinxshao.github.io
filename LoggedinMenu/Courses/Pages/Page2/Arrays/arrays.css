@@ -38,7 +38,22 @@ body {
       #heropic{
         width: 250px !important;
       }
-      
+      #editor {
+        height: 400px;
+        font-size: 12px !important;
+      }
+      #output {
+        padding: 4px;
+        border: 2px solid gray;
+        min-height: 100px;
+        width: 100%;
+        resize: none;
+        color:white;
+        font-size: 20px !important;
+        text-align: center;
+        overflow: auto;
+        white-space: nowrap;
+      }
     }
   
     /*Loading Screen */
@@ -204,4 +219,6 @@ body {
     color:white;
     font-size: 30px;
     text-align: center;
+    overflow: auto;
+    white-space: nowrap;
   }
